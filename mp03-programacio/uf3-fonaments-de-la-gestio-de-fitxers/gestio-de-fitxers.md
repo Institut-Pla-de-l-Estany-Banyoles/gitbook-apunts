@@ -1,6 +1,6 @@
 # Gestió de fitxers
 
-En Java, les classes `File` i `Path` són les responsables de les operacions d'E/S de fitxers. Realitzen les mateixes funcions, però pertanyen a paquets diferents.
+En Java, les classes `File` i `Path` són les responsables de les operacions sobre els fitxers. Realitzen les mateixes funcions, però pertanyen a paquets diferents.
 
 ### Classe [java.io.File](https://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true)
 

@@ -27,7 +27,7 @@ try (Scanner lector = new Scanner(path)) {
 Fixa't que aquet bloc try-catch és una mica diferent dels que haviem fet servir fins ara. Al costat del try hi ha un parametre. Aquest tipus de sentència s'anomena [_try-with-resources_](https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html)
 {% endhint %}
 
-La sentència _try-with-resources_ és una instrucció que crea un o més recursos. Un recurs és un objecte que s'ha de tancar quan el programa acaba d'utilitzar-lo. El propi bloc s'assegura que cada recurs es tanca al final de la sentència. Qualsevol objecte que implementi _java.lang.AutoCloseable_, incloent-hi tots els objectes que implementen _java.io.Closeable_, pot ser utilitzat com a recurs.
+La sentència _try-with-resources_ és una instrucció que crea un o més recursos. **Un recurs és un objecte que s'ha de tancar quan el programa acaba d'utilitzar-lo**. El propi bloc s'assegura que cada recurs es tanca al final de la sentència. Qualsevol objecte que implementi _java.lang.AutoCloseable_, incloent-hi tots els objectes que implementen _java.io.Closeable_, pot ser utilitzat com a recurs.
 
 El següent codi seria equivalent a l'anterior:
 
@@ -71,10 +71,9 @@ try (BufferedReader reader = Files.newBufferedReader(path)) {
 Cal tenir en compte que el mètode _readLine()_ retornarà _null_ quan s'arribi al final del fitxer.
 {% endhint %}
 
-
 ### Fitxers petits
 
-Per fitxers petits, podem llegir-los tot de cop mitjançant el mètode static de la classe `Files` _Files.readAllLines()_. Aquest mètode ens torna una `List` de `String` on cada element és una línia del fitxer.
+Per fitxers petits, podem **llegir-los tot de cop mitjançant** el mètode _static_ de la classe `Files` _Files.readAllLines()_. Aquest mètode ens torna una `List` de `String` on cada element és una línia del fitxer.
 
 ```java
 Path path = Paths.get("fitxers/tutorial.txt");
@@ -91,7 +90,6 @@ System.out.println(read);
 
 També es pot utilitzar el mètode _readAllBytes()_ en el cas de necessitar les dades en binari.
 
-
 ### Utilitzant Files.lines()
 
 ```java
@@ -106,12 +104,12 @@ try (Stream<String> lines = Files.lines(path)) {
 ```
 
 {% hint style="info" %}
-Tant el mètdoe _readAllLines()_ com els _lines()_ poden rebre un segon paràmetre que configura la codificació del fitxer. Si no s'especifica, per omisió s'utilitza UTF-8. 
+Tant el mètdoe _readAllLines()_ com els _lines()_ poden rebre un segon paràmetre que configura la codificació del fitxer. Si no s'especifica, per omisió s'utilitza UTF-8.
 {% endhint %}
 
 ### Llibreria externa [Apache Commons IO](https://commons.apache.org/proper/commons-io/)
 
-Una altre possible manera de llegir fitxers en Java, és utilitzant la classe `FileUtils` de la llibreria externa commons-io
+Un altre possible manera de llegir fitxers en Java, és utilitzant la classe `FileUtils` de la llibreria externa _commons-io_
 
 ```java
 File file = new File("fitxers/tutorial.txt");
@@ -124,3 +122,8 @@ La mateixa llibreria també ofereix la classe `IOUtils`
 FileInputStream fis = new FileInputStream("fitxers/tutorial.txt");
 String data = IOUtils.toString(fis, "UTF-8");
 ```
+
+
+
+## Escriptura de fitxers
+

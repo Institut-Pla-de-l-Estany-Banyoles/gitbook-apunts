@@ -52,10 +52,75 @@ Sempre cal tancar el fitxer un cop heu finalitzat totes les operacions d’entra
 
 ### Classe [BufferedReader](https://docs.oracle.com/javase/7/docs/api/java/io/BufferedReader.html)
 
-### Utilitzant Java NIO
+Una altra manera simple de llegir fitxers és utilitzant la classe `BufferedReader`, que deriva de `Reader`. En el cas de fitxers grans és millor anar llegint i processant línia a línia.
 
-#### Fitxers petits
+```java
+Path path = Paths.get("fitxers/tutorial.txt");
 
-#### Fitxers grans
+try (BufferedReader reader = Files.newBufferedReader(path)) {
+    String line = null;
+    while ((line = reader.readLine()) != null) {
+        System.out.println(line);
+    }
+} catch (IOException e) {
+    throw new RuntimeException(e);
+}
+```
+
+{% hint style="info" %}
+Cal tenir en compte que el mètode _readLine()_ retornarà _null_ quan s'arribi al final del fitxer.
+{% endhint %}
+
+
+### Fitxers petits
+
+Per fitxers petits, podem llegir-los tot de cop mitjançant el mètode static de la classe `Files` _Files.readAllLines()_. Aquest mètode ens torna una `List` de `String` on cada element és una línia del fitxer.
+
+```java
+Path path = Paths.get("fitxers/tutorial.txt");
+
+List<String> read = null;
+try {
+    read = Files.readAllLines(path);
+} catch (IOException e) {
+    throw new RuntimeException(e);
+}
+
+System.out.println(read);
+```
+
+També es pot utilitzar el mètode _readAllBytes()_ en el cas de necessitar les dades en binari.
+
 
 #### Utilitzant Files.lines()
+
+```java
+Path path = Paths.get("fitxers/tutorial.txt");
+
+try (Stream<String> lines = Files.lines(path)) {
+    String data = lines.collect(Collectors.joining("\n"));
+    System.out.println(data);
+} catch (IOException e) {
+    throw new RuntimeException(e);
+}
+```
+
+{% hint style="info" %}
+Tant el mètdoe _readAllLines()_ com els _lines()_ poden rebre un segon paràmetre que configura la codificació del fitxer. Si no s'especifica, per omisió s'utilitza UTF-8. 
+{% endhint %}
+
+### Llibreria externa [Apache Commons IO](https://commons.apache.org/proper/commons-io/)
+
+Una altre possible manera de llegir fitxers en Java, és utilitzant la classe `FileUtils` de la llibreria externa commons-io
+
+```java
+File file = new File("fitxers/tutorial.txt");
+String data = FileUtils.readFileToString(file, "UTF-8");
+```
+
+La mateixa llibreria també ofereix la classe `IOUtils`
+
+```java
+FileInputStream fis = new FileInputStream("fitxers/tutorial.txt");
+String data = IOUtils.toString(fis, "UTF-8");
+```

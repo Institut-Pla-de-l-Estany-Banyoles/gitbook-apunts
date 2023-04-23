@@ -92,7 +92,7 @@ System.out.println(read);
 També es pot utilitzar el mètode _readAllBytes()_ en el cas de necessitar les dades en binari.
 
 
-#### Utilitzant Files.lines()
+### Utilitzant Files.lines()
 
 ```java
 Path path = Paths.get("fitxers/tutorial.txt");

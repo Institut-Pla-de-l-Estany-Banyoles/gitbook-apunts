@@ -157,7 +157,16 @@ String absolutePathStr = file.getAbsolutePath();
 Path absolutePath = path.toAbsolutePath();
 ```
 
-També podem obtenir el **llistat de contingut d'un directori:**
+També podem **obtenir la ruta fins a l'element o el nom de l'element**, amb els mètodes _getParent()_ o _getName()_.
+
+```java
+String pathStr = path.getParent();
+String name = path.getName();
+```
+
+<figure><img src="../../.gitbook/assets/ic10m3u6_01.png" alt=""><figcaption><p>Ruta absoluta / relativa i getParent() / getName()</p></figcaption></figure>
+
+Per obtenir el **llistat de contingut d'un directori:**
 
 ```java
 // java.io API

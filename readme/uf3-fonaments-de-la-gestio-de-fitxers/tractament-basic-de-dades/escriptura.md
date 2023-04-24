@@ -1,4 +1,81 @@
 # Escriptura
 
-Contingut escriptura
+A contiuació veurem diferents maneres d'escriure en un fitxer utilitzant Java. Farem ús de _BufferedWriter_, _PrintWriter_ i utilitats de la classe `Files` de Java 7. Altres classes que existeixen però que no veurem en detall són: _FileOutputStream_, _DataOutputStream_, _RandomAccessFile_ i _FileChannel_.
+
+## Classe [BufferedWriter](https://docs.oracle.com/javase/7/docs/api/java/io/BufferedWriter.html)
+
+Comencem amb una de les maneres més simples per **escriure un String en un fitxer**:
+
+```java
+File file = new File("fitxers/tutorial.txt");
+String str = "Text a escriure";
+
+try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))){
+    writer.write(str);
+} catch (IOException e) {
+    e.printStackTrace();
+}
+```
+
+{% hint style="warning" %}
+Atenció! El mètode _write()_ esborra el contingut previ del fitxer.
+{% endhint %}
+
+Per **afegir una línia a un fitxer**, hem d'utilitzar el mètode _append()_
+
+```java
+File file = new File("fitxers/tutorial.txt");
+String str = "Text a escriure";
+
+try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))){
+    writer.append(str);
+} catch (IOException e) {
+    e.printStackTrace();
+}
+```
+
+D'aquesta manera, el que estem fent és afegir una línia al final del fitxer.
+
+## Classe [PrintWriter](https://docs.oracle.com/javase/7/docs/api/java/io/PrintWriter.html)
+
+La classe `PrintWriter` ens permet **escriure text amb format** en un fitxer
+
+```java
+File file = new File("fitxers/tutorial.txt");
+String str = "Text a escriure";
+
+try (PrintWriter printWriter = new PrintWriter(new FileWriter(file))){
+    printWriter.print(str);
+    printWriter.printf("El nom de l'alumne és %s i la seva nota és %d, "Marc", 8)
+} catch (IOException e) {
+    e.printStackTrace();
+}
+```
+
+Fixeu-vos com no només escrivim una cadena de text simple en un fitxer, sinó que també escrivim text formatat utilitzant el mètode _printf_.
+Podem crear l'escriptor utilitzant _FileWriter, BufferedWriter_ o fins i tot _System.out_.
+
+## Classe [Files](https://docs.oracle.com/javase/7/docs/api/java/nio/file/Files.html)
+
+La classe `Files` ens permet **escriure text amb format** en un fitxer
+
+```java
+Path path = Paths.get("fitxers/tutorial.txt");
+String str = "Text a escriure";
+
+byte[] strToBytes = str.getBytes();
+
+try {
+    Files.write(path, strToBytes);
+} catch (IOException e) {
+    e.printStackTrace();
+}      
+```
+
+El mètode _write()_ rep com a paràmetre el `Path` on escriure, i un _byte[]_ amb les dades a afegir-hi. També pot rebre un tercer paràmetre amb les opcions d'obertura del fixer.
+
+{% hint style="info" %}
+Aquestes opcions d'obertura venen definit per l'`Enum StandardOpenOption` i els seus valors son: APPEND, CREATE, CREATE_NEW, DELETE_ON_CLOSE, DSYNC, READ, SPARSE, SYNC, TRUNCATE_EXISTING i WRITE
+{% endhint %}
+
 

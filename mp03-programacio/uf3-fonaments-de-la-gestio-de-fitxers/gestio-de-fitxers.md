@@ -1,6 +1,6 @@
 # Gestió de fitxers
 
-En Java, les classes `File` i `Path` són les responsables de les operacions sobre els fitxers. Realitzen les mateixes funcions, però pertanyen a paquets diferents.
+En Java, les classes `File` i `Path` són les responsables de les operacions sobre els fitxers i directoris. Realitzen les mateixes funcions, però pertanyen a paquets diferents.
 
 ### Classe [java.io.File](https://docs.oracle.com/javase/7/docs/api/java/io/File.html?is-external=true)
 
@@ -20,7 +20,7 @@ La classe `Path` forma part de l'actualització NIO2, que es va afegir a Java a 
 Path path = Paths.get("fitxers/tutorial.txt");
 ```
 
-En comptes d'utilitzar un constructor com fem amb l'API de `File`, creem una instància de `Path` utilitzant el mètode estàtic [java.nio.file.Paths.get()](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/nio/file/Paths.html#get\(java.lang.String,java.lang.String...\))
+En comptes d'utilitzar un constructor com fem amb l'API de `File`, creem una instància de `Path` utilitzant el mètode estàtic [_Paths.get()_](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/nio/file/Paths.html#get\(java.lang.String,java.lang.String...\))
 
 ### Perquè NIO2 API
 
@@ -64,17 +64,21 @@ A causa d'aquests problemes, Oracle va desenvolupar la millorada API NIO2. **Sem
 
 ### Instanciar File i Path
 
-```java
-File file = new File("fitxers/tutorial.txt");
+<pre class="language-java"><code class="lang-java"><strong>// java.io API
+</strong><strong>File file = new File("fitxers/tutorial.txt");
+</strong><strong>
+</strong>// java.nio API
 Path path = Paths.get("fitxers/tutorial.txt");
-```
+</code></pre>
 
 Aquí construïm un objecte `File` mitjançant el constructor, mentre que obtenim un `Path` utilitzant un mètode estàtic. També podem resoldre rutes complexes utilitzant múltiples arguments.
 
-```java
-File file = new File("fitxers", "tutorial.txt");
+<pre class="language-java"><code class="lang-java"><strong>// java.io API
+</strong><strong>File file = new File("fitxers", "tutorial.txt");
+</strong><strong>
+</strong>// java.nio API
 Path path = Paths.get("fitxers", "tutorial.txt");
-```
+</code></pre>
 
 També podem convertir objectes entre les dues APIs utilitzant els mètodes [toPath()](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/File.html#toPath\(\)) i [toFile()](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/nio/file/Path.html#toFile\(\)):
 
@@ -90,32 +94,44 @@ Ambdues APIs proporcionen mètodes per gestionar fitxers i directoris. Ho demost
 Per **crear fitxers**, podem utilitzar els mètodes _createNewFile()_ i _Files.createFile()_:
 
 ```java
+// java.io API
 boolean result = file.createNewFile();
+
+// java.nio API
 Path newPath = Files.createFile(path);
 ```
 
 Per **crear un directori**, podem utilitzar els mètodes _mkdir()_ o _Files.createDirectory()_
 
 ```java
+// java.io API
 boolean result = file.mkdir();
-File newPath = Files.createDirectory(path);
+
+// java.nio API
+Path newPath = Files.createDirectory(path);
 ```
 
 Quan volem **canviar el nom o moure un fitxer**, necessitem crear un altre objecte d'instància i utilitzar _renameTo()_ o _Files.move()_:
 
 ```java
+// java.io API
 boolean result = file.renameTo(new File("fitxers/tutorial2.txt"));
+
+// java.nio API
 Path newPath = Files.move(path, Paths.get("fitxers/tutorial2.txt"));
 ```
 
 Per **realitzar una operació d'eliminació**, utilitzem _delete()_ o _Files.delete():_
 
 ```java
+// java.io API
 boolean result = file.delete();
+
+// java.nio API
 Files.delete(Paths.get(path));
 ```
 
-Cal destacar que els mètodes originals retornen un indicador amb un resultat establert a _fals_ en cas d'errors. Els mètodes de NIO2 retornen una nova instància de `Path`, excepte per a l'operació d'eliminació, que llança una _IOException_ quan es produeixen errors.
+Cal destacar que els mètodes originals de _java.io_ retornen un _flag_ amb un resultat establert a _fals_ en cas d'errors. Els mètodes de NIO2 retornen una nova instància de `Path`, excepte per a l'operació d'eliminació, que llança una _IOException_ quan es produeixen errors.
 
 ### Llegint Metadades
 
@@ -147,7 +163,7 @@ Recordeu que amb la classe `File`, algunes de les operacions com _canRead(), can
 
 Aquestes operacions ens permeten obtenir o manipular informació sobre les rutes dels fitxers o directoris
 
-Per **obtenir la ruta absoluta**, podem utilitzar:
+Per obtenir la **ruta absoluta**, podem utilitzar:
 
 ```java
 // java.io API
@@ -157,7 +173,7 @@ String absolutePathStr = file.getAbsolutePath();
 Path absolutePath = path.toAbsolutePath();
 ```
 
-També podem **obtenir la ruta fins a l'element o el nom de l'element**, amb els mètodes _getParent()_ o _getName()_.
+També podem obtenir **la ruta fins a l'element** o el **nom de l'element**, amb els mètodes _getParent()_ o _getName()_.
 
 ```java
 String pathStr = path.getParent();

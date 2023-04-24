@@ -14,6 +14,6 @@ description: '#DamMp03Uf3'
 [gestio-de-fitxers.md](gestio-de-fitxers.md)
 {% endcontent-ref %}
 
-{% content-ref url="tractament-basic-de-dades.md" %}
-[tractament-basic-de-dades.md](tractament-basic-de-dades.md)
+{% content-ref url="../../readme/uf3-fonaments-de-la-gestio-de-fitxers/tractament-basic-de-dades/" %}
+[tractament-basic-de-dades](../../readme/uf3-fonaments-de-la-gestio-de-fitxers/tractament-basic-de-dades/)
 {% endcontent-ref %}

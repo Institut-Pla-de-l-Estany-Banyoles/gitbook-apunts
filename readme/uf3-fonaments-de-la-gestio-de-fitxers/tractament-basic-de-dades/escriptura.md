@@ -17,7 +17,7 @@ try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))){
 }
 ```
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 Atenció! El mètode _write()_ esborra el contingut previ del fitxer.
 {% endhint %}
 
@@ -52,8 +52,7 @@ try (PrintWriter printWriter = new PrintWriter(new FileWriter(file))){
 }
 ```
 
-Fixeu-vos com no només escrivim una cadena de text simple en un fitxer, sinó que també escrivim text formatat utilitzant el mètode _printf_.
-Podem crear l'escriptor utilitzant _FileWriter, BufferedWriter_ o fins i tot _System.out_.
+Fixeu-vos com no només escrivim una cadena de text simple en un fitxer, sinó que també escrivim text formatat utilitzant el mètode _printf_. Podem crear l'escriptor utilitzant _FileWriter, BufferedWriter_ o fins i tot _System.out_.
 
 ## Classe [Files](https://docs.oracle.com/javase/7/docs/api/java/nio/file/Files.html)
 
@@ -72,10 +71,8 @@ try {
 }      
 ```
 
-El mètode _write()_ rep com a paràmetre el `Path` on escriure, i un _byte[]_ amb les dades a afegir-hi. També pot rebre un tercer paràmetre amb les opcions d'obertura del fixer.
+El mètode _write()_ rep com a paràmetre el `Path` on escriure, i un _byte\[]_ amb les dades a afegir-hi. També pot rebre un tercer paràmetre amb les opcions d'obertura del fitxer.
 
 {% hint style="info" %}
-Aquestes opcions d'obertura venen definit per l'`Enum StandardOpenOption` i els seus valors son: APPEND, CREATE, CREATE_NEW, DELETE_ON_CLOSE, DSYNC, READ, SPARSE, SYNC, TRUNCATE_EXISTING i WRITE
+Aquestes opcions d'obertura venen definit per l'enum [StandardOpenOption](https://docs.oracle.com/javase/7/docs/api/java/nio/file/StandardOpenOption.html) i els seus valors son: APPEND, CREATE, CREATE\_NEW, DELETE\_ON\_CLOSE, DSYNC, READ, SPARSE, SYNC, TRUNCATE\_EXISTING i WRITE
 {% endhint %}
-
-

@@ -1,6 +1,6 @@
 # Escriptura
 
-A contiuació veurem diferents maneres d'escriure en un fitxer utilitzant Java. Farem ús de _BufferedWriter_, _PrintWriter_ i utilitats de la classe `Files` de Java 7. Altres classes que existeixen però que no veurem en detall són: _FileOutputStream_, _DataOutputStream_, _RandomAccessFile_ i _FileChannel_.
+A contiuació veurem diferents maneres d'escriure en un fitxer utilitzant Java. Farem ús de `BufferedWriter`, `PrintWriter` i utilitats de la classe `Files` de Java 7. Altres classes que existeixen però que no veurem en detall són: `FileOutputStream`, `DataOutputStream`, `RandomAccessFile` i `FileChannel`.
 
 ## Classe [BufferedWriter](https://docs.oracle.com/javase/7/docs/api/java/io/BufferedWriter.html)
 

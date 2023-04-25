@@ -6,7 +6,7 @@
     * [Tractament bàsic de dades](readme/uf3-fonaments-de-la-gestio-de-fitxers/tractament-basic-de-dades/README.md)
       * [Lectura](readme/uf3-fonaments-de-la-gestio-de-fitxers/tractament-basic-de-dades/lectura.md)
       * [Escriptura](readme/uf3-fonaments-de-la-gestio-de-fitxers/tractament-basic-de-dades/escriptura.md)
-  * [UF5 - POO: Llibreries de classes fonamentals](readme/uf5-poo-llibreries-de-classes-fonamentals/README.md)
+  * [UF5 - POO: Llibreries de classes fonamentals](readme/uf5-poo-llibreries-de-classes-fonamentals.md)
     * [Col·leccions i mapes](readme/uf5-poo-llibreries-de-classes-fonamentals/col-leccions-i-mapes/README.md)
       * [Framework](readme/uf5-poo-llibreries-de-classes-fonamentals/col-leccions-i-mapes/framework.md)
       * [Genèrics](readme/uf5-poo-llibreries-de-classes-fonamentals/col-leccions-i-mapes/generics.md)

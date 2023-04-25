@@ -2,7 +2,7 @@
 
 Per poder llegir fitxers orientats a caràcters, Java disposa de diferents classes com `Scanner` del paquet _java.utils_ o `Reader` del paquet _java.io._ A continuació veurem algunes de les principals maneres de llegir fitxers en Java
 
-### Classe [Scanner](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html)
+## Classe [Scanner](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html)
 
 De la mateixa manera que llegim dades de l'entrada per defecte del programa, la consola, podem llegir d'un fitxer utilitzant la classe `Scanner`
 
@@ -46,7 +46,7 @@ try {
 
 **Sempre cal tancar el fitxer un cop heu finalitzat totes les operacions d’entrada / sortida.**
 
-### Classe [BufferedReader](https://docs.oracle.com/javase/7/docs/api/java/io/BufferedReader.html)
+## Classe [BufferedReader](https://docs.oracle.com/javase/7/docs/api/java/io/BufferedReader.html)
 
 Una altra manera simple de llegir fitxers és utilitzant la classe `BufferedReader`, que deriva de `Reader`. En el cas de fitxers grans és millor anar llegint i processant línia a línia.
 
@@ -67,6 +67,8 @@ try (BufferedReader reader = Files.newBufferedReader(path)) {
 Cal tenir en compte que el mètode _readLine()_ retornarà _null_ quan s'arribi al final del fitxer.
 {% endhint %}
 
+## Classe[ Files](https://docs.oracle.com/javase/7/docs/api/java/nio/file/Files.html)
+
 ### Fitxers petits
 
 Per fitxers petits, podem **llegir-los tot de cop mitjançant** el mètode _static_ de la classe `Files` _Files.readAllLines()_. Aquest mètode ens torna una `List` de `String` on cada element és una línia del fitxer.
@@ -86,7 +88,9 @@ System.out.println(read);
 
 També es pot utilitzar el mètode _readAllBytes()_ en el cas de necessitar les dades en binari.
 
-### Utilitzant Files.lines()
+### &#x20;Fitxers grans
+
+**Llegirem i processarem el contingut línia a línia**. Per llegir fitxers realment grans, la classe òptima és `BufferedInputStream`
 
 ```java
 Path path = Paths.get("fitxers/tutorial.txt");
@@ -103,7 +107,7 @@ try (Stream<String> lines = Files.lines(path)) {
 Tant el mètdoe _readAllLines()_ com els _lines()_ poden rebre un segon paràmetre que configura la codificació del fitxer. Si no s'especifica, per omisió s'utilitza UTF-8.
 {% endhint %}
 
-### Llibreria externa [Apache Commons IO](https://commons.apache.org/proper/commons-io/)
+## Llibreria externa [Apache Commons IO](https://commons.apache.org/proper/commons-io/)
 
 Un altre possible manera de llegir fitxers en Java, és utilitzant la classe `FileUtils` de la llibreria externa _commons-io_
 

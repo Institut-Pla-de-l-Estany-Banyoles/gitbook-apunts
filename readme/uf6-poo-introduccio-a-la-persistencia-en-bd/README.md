@@ -12,11 +12,11 @@ description: '#DamMp03Uf6'
 
 ### Taula de continguts
 
-  * [UF6 - POO: Introducció a la persistència en BD](readme/uf6-poo-introduccio-a-la-persistencia-en-bd/README.md)
-    * [Persistència](readme/uf6-poo-introduccio-a-la-persistencia-en-bd/persistencia.md)
-    * [Fitxers en Java](readme/uf6-poo-introduccio-a-la-persistencia-en-bd/fitxers-en-java.md)
-    * [Java Database Connectivity (JDBC)](readme/uf6-poo-introduccio-a-la-persistencia-en-bd/java-database-connectivity-jdbc.md)
-    * [Patrons de disseny](readme/uf6-poo-introduccio-a-la-persistencia-en-bd/patrons-de-disseny.md)
+* [UF6 - POO: Introducció a la persistència en BD](./)
+  * [Persistència](persistencia.md)
+  * [Fitxers en Java](fitxers-en-java.md)
+  * [Java Database Connectivity (JDBC)](java-database-connectivity-jdbc.md)
+  * [Patrons de disseny](patrons-de-disseny.md)
 
 ### Referències
 

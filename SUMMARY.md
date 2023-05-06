@@ -31,3 +31,8 @@
       * [Patró de disseny UI](readme/uf5-poo-llibreries-de-classes-fonamentals/interficies-grafiques/patro-de-disseny-ui.md)
       * [Concurrència](readme/uf5-poo-llibreries-de-classes-fonamentals/interficies-grafiques/concurrencia.md)
       * [Binding de propietats](readme/uf5-poo-llibreries-de-classes-fonamentals/interficies-grafiques/binding-de-propietats.md)
+  * [UF6 - POO: Introducció a la persistència en BD](readme/uf6-poo-introduccio-a-la-persistencia-en-bd/README.md)
+    * [Persistència](readme/uf6-poo-introduccio-a-la-persistencia-en-bd/persistencia.md)
+    * [Fitxers en Java](readme/uf6-poo-introduccio-a-la-persistencia-en-bd/fitxers-en-java.md)
+    * [Java Database Connectivity (JDBC)](readme/uf6-poo-introduccio-a-la-persistencia-en-bd/java-database-connectivity-jdbc.md)
+    * [Patrons de disseny](readme/uf6-poo-introduccio-a-la-persistencia-en-bd/patrons-de-disseny.md)

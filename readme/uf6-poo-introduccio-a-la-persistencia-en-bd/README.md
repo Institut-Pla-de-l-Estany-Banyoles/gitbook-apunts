@@ -4,13 +4,13 @@ description: '#DamMp03Uf6'
 
 # UF6 - POO: Introducció a la persistència en BD
 
-Resultats d'aprenentatge:
+### Resultats d'aprenentatge
 
 1. Gestiona informació emmagatzemada en bases de dades relacionals mantenint la integritat i la consistència de les dades.
 2. Gestiona informació emmagatzemada en bases de dades objecte-relacionals mantenint la integritat i la consistència de les dades.
 3. Utilitza bases de dades orientades a objectes, analitzant-ne les característiques i aplicant tècniques per mantenir la persistència de la informació.
 
-## Referències
+### Referències
 
 * [JDBC Data Access](https://docs.oracle.com/javase/tutorial/jdbc/index.html)
 * [Java Try With Resources (Jenkov)](http://tutorials.jenkov.com/java-exception-handling/try-with-resources.html)

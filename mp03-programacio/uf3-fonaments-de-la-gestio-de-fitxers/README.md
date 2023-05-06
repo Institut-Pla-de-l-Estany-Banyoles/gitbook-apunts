@@ -10,9 +10,8 @@ description: '#DamMp03Uf3'
 
 ### Taula de continguts
 
-  * [UF3 - Fonaments de la gestió de fitxers](mp03-programacio/uf3-fonaments-de-la-gestio-de-fitxers/README.md)
-    * [Gestió de fitxers](mp03-programacio/uf3-fonaments-de-la-gestio-de-fitxers/gestio-de-fitxers.md)
-    * [Tractament bàsic de dades](readme/uf3-fonaments-de-la-gestio-de-fitxers/tractament-basic-de-dades/README.md)
-      * [Lectura](readme/uf3-fonaments-de-la-gestio-de-fitxers/tractament-basic-de-dades/lectura.md)
-      * [Escriptura](readme/uf3-fonaments-de-la-gestio-de-fitxers/tractament-basic-de-dades/escriptura.md)
-
+* [UF3 - Fonaments de la gestió de fitxers](./)
+  * [Gestió de fitxers](gestio-de-fitxers.md)
+  * [Tractament bàsic de dades](../../readme/uf3-fonaments-de-la-gestio-de-fitxers/tractament-basic-de-dades/)
+    * [Lectura](../../readme/uf3-fonaments-de-la-gestio-de-fitxers/tractament-basic-de-dades/lectura.md)
+    * [Escriptura](../../readme/uf3-fonaments-de-la-gestio-de-fitxers/tractament-basic-de-dades/escriptura.md)

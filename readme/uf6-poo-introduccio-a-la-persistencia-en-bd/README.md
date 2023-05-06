@@ -10,6 +10,14 @@ description: '#DamMp03Uf6'
 2. Gestiona informació emmagatzemada en bases de dades objecte-relacionals mantenint la integritat i la consistència de les dades.
 3. Utilitza bases de dades orientades a objectes, analitzant-ne les característiques i aplicant tècniques per mantenir la persistència de la informació.
 
+### Taula de continguts
+
+  * [UF6 - POO: Introducció a la persistència en BD](readme/uf6-poo-introduccio-a-la-persistencia-en-bd/README.md)
+    * [Persistència](readme/uf6-poo-introduccio-a-la-persistencia-en-bd/persistencia.md)
+    * [Fitxers en Java](readme/uf6-poo-introduccio-a-la-persistencia-en-bd/fitxers-en-java.md)
+    * [Java Database Connectivity (JDBC)](readme/uf6-poo-introduccio-a-la-persistencia-en-bd/java-database-connectivity-jdbc.md)
+    * [Patrons de disseny](readme/uf6-poo-introduccio-a-la-persistencia-en-bd/patrons-de-disseny.md)
+
 ### Referències
 
 * [JDBC Data Access](https://docs.oracle.com/javase/tutorial/jdbc/index.html)

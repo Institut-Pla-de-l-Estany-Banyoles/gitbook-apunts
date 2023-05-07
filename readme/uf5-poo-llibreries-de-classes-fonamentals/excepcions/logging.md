@@ -1,6 +1,6 @@
 # Logging
 
-El registre en logs (**logging**) permet organitzar d'una forma més óptima els missatges generats en temps d'execució per un programari, i és una alternativa millor que els `System.out.println`. Té els següents avantatges:
+El registre en logs (**logging**) permet organitzar d'una forma òptima els missatges generats en temps d'execució per un programari, i és una alternativa millor que els `System.out.println`. Té els següents avantatges:
 
 * Permet assignar una prioritat als missatges, i posteriorment filtrar-los. Tant de forma global com per paquets (packages) i classes.
 * Permet reencaminar els missatges a diferents destins, com consola, fitxer, etc.
@@ -32,6 +32,21 @@ Tot i que el mètode `log(String)` és el més estàndard i convenient, també h
 
 ```java
 severe(String), warning(String), info(String), config(String), fine(String), finer(String), finest(String)
+```
+
+## Afegir persistència als Logs
+
+Si no configurem un `FileHandler`, els logs simplement seran mostrats per la sortida estàndard. Si volem que aquests logs persisteixin per poder fer una anàlisi posterior o tenir un registre, hem de fer que aquests es vagin guardant en un fitxer a mesura que es llencin.
+
+```java
+FileHandler fh = null;
+try {
+    fh = new FileHandler("log.xml");
+    LOGGER.addHandler(fh);
+} catch (Exception e) {
+    LOGGER.log(Level.SEVERE, "Error al crear el fitxer de logs", e);
+}
+LOGGER.log(Level.INFO, "Starting application...");
 ```
 
 ## Configuració

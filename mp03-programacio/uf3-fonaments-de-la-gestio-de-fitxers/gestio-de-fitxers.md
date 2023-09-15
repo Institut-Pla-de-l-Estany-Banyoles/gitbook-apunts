@@ -28,7 +28,7 @@ El paquet _java.io_ es va introduir amb la primera versió del JDK de Java, perm
 
 #### Gestió d'errors
 
-El problema més comú és el maneig deficient dels errors. Molts mètodes **no ens proporcionen detalls sobre el problema trobat** o fins i tot no llancen excepcions.
+El problema més comú és la gestió deficient dels errors. Molts mètodes **no proporcionen detalls sobre el problema trobat** o fins i tot no llancen excepcions.
 
 Suposem que tenim un programa senzill que esborra un fitxer:
 

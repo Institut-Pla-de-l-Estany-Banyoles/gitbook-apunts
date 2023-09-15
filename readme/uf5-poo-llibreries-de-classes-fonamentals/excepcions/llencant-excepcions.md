@@ -48,6 +48,4 @@ try {
 
 ## Herència
 
-Quan sobreescribim un mètode, podem fer que la subclasse tingui una signatura menys arriscada, o sigui, sense el throws.
-
-Veure la [interpretació de les excepcions](https://jgregor5.gitlab.io/pindoles\_java/#interpretaci%C3%B3-de-les-excepcions).
+Quan sobreescrivim un mètode, podem fer que la subclasse tingui una signatura menys arriscada, o sigui, sense el throws.

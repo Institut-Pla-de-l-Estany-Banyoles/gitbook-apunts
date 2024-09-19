@@ -1,7 +1,11 @@
 # Table of contents
 
 * [MP03 - Programació](README.md)
-  * [Introducció a la programació](readme/introduccio-a-la-programacio.md)
+  * [Introducció a la programació](readme/introduccio-a-la-programacio/README.md)
+    * [Conceptes inicials](readme/introduccio-a-la-programacio/conceptes-inicials.md)
+    * [Components d'un sistema informàtic](readme/introduccio-a-la-programacio/components-dun-sistema-informatic.md)
+    * [Del codi font a l'execució](readme/introduccio-a-la-programacio/del-codi-font-a-lexecucio.md)
+    * [Algorismes](readme/introduccio-a-la-programacio/algorismes.md)
   * [UF3 - Fonaments de la gestió de fitxers](mp03-programacio/uf3-fonaments-de-la-gestio-de-fitxers/README.md)
     * [Gestió de fitxers](mp03-programacio/uf3-fonaments-de-la-gestio-de-fitxers/gestio-de-fitxers.md)
     * [Tractament bàsic de dades](readme/uf3-fonaments-de-la-gestio-de-fitxers/tractament-basic-de-dades/README.md)

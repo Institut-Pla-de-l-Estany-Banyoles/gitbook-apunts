@@ -1,28 +1,20 @@
+---
+description: >-
+  En aquest apartat veurem els conceptes bàsics relacionats amb el món de la
+  programació
+---
+
 # Introducció a la programació
 
-## 0. ÍNDEX
+## Taula de continguts
 
-1. [**Introducció a la programació**](introduccio-a-la-programacio.md#id-1.-introduccio-a-la-programacio)
-   * Concepte de programa
-   * Algorismes
-   * Llenguatges de programació i IDE
-   * Errors
-2. [**Components d'un sistema informàtic**](introduccio-a-la-programacio.md#id-2.-components-dun-sistema-informatic)
-   * Processador
-   * Memòria
-   * Entrada/sortida
-3. [**Algorismes**](introduccio-a-la-programacio.md#id-3.-algorismes)
-   * Concepte i definició
-   * Classificació: seqüencial, iteratiu i condicional
-   * Representació: Diagrames de flux i pseudocodi
-4. [**Llenguatges de programació**](introduccio-a-la-programacio.md#id-4.-llenguatges-de-programacio)
-   * Llenguatge màquina i assemblador
-   * Llenguatges d'alt i baix nivell
-   * Llenguatges compilats i interpretats
-5. [**Tipus de programació**](introduccio-a-la-programacio.md#id-5.-tipus-de-programacio)
-   * Programació estructurada
-   * Programació modular
-   * Programació orientada a objectes
+1. Conceptes inicials
+2. Components d'un sistema informàtic
+3. Del codi font a l'execució
+4. Algoritmes
+5. Llenguatges de programació
+
+
 
 ***
 
@@ -45,7 +37,7 @@
   * **Errors de lògica**: El programa produeix resultats incorrectes.
 * **IDE (Integrated Development Environment):** O Entorn de Desenvolupament Integrat, és el programa informàtic que ajuda i assisteix en la creació de nous programes.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt="" width="563"><figcaption><p>Visual Studio Code</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="563"><figcaption><p>Visual Studio Code</p></figcaption></figure>
 
 ## 2. Components d'un sistema informàtic
 
@@ -63,7 +55,7 @@
 * **Representació**:
   * **Diagrames de flux**: Representació gràfica dels passos d'un algorisme.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://cms.boardmix.com/images/articles/flowchart-symbols-cheatsheet.png" alt=""><figcaption></figcaption></figure>
 
@@ -79,7 +71,7 @@ Un **llenguatge de programació** és un conjunt d'instruccions i normes que els
 
     * **Baix nivell**: Treballen molt pròxims al maquinari (ex: llenguatge màquina. assemblador...).
 
-    <figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
 
     * **Alt nivell**: Llenguatges que permeten més abstracció del maquinari, més propers a com escrivim els humans. Alguns exemples poden ser Java o Python.
 

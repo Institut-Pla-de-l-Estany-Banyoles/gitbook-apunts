@@ -65,6 +65,8 @@
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="https://cms.boardmix.com/images/articles/flowchart-symbols-cheatsheet.png" alt=""><figcaption></figcaption></figure>
+
 * **Pseudocodi**: Representació textual, amb paraules clau i estructures pròpies de programació.
 
 

@@ -25,9 +25,17 @@ Podem representar els algoritmes en forma de text mitjançant **pseudocodi** o d
 
 ### **Diagrames de flux**
 
-Representació gràfica dels passos d'un algorisme.
+Un **diagrama de flux** és una representació gràfica d'un procés o algorisme, utilitzant formes geomètriques com rectangles, diamants i fletxes per mostrar els passos i la seqüència que segueix el procés.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+Aquest tipus de diagrama és molt útil per visualitzar processos complexos d'una manera fàcil d'entendre, facilitant l'anàlisi i la resolució de problemes. S'utilitza àmpliament en programació, negocis i altres àmbits per planificar o comunicar passos lògics o decisions.
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Diagrama de flux simple</p></figcaption></figure>
+
+A continuació podeu veure les diferents formes i la utilitat que tenen, segueixen un estàndard definit per la norma **ISO 5807** (Documentació del procés d'informació). Aquest estàndard descriu els símbols més utilitzats en la representació d'algorismes i processos.
+
+L'estandardització permet que els diagrames de flux siguin reconeguts i interpretats de manera consistent per qualsevol persona, facilitant la comunicació i anàlisi de processos en diferents àmbits, com programació, negocis o enginyeria.
+
+A la següent "xuleta" o _cheat sheet_, hi ha molts més símbols dels que recull la norma comentada anteriorment. Els principals són l'**oval** (inici o final de procés), **rectangle** (operacions o accions), **rombe** (decisions / bifurcacions), **paral·lelogram** (entrada o sortida de dades) i les **fletxes** (flux de dades o execució).
 
 <figure><img src="https://cms.boardmix.com/images/articles/flowchart-symbols-cheatsheet.png" alt=""><figcaption></figcaption></figure>
 

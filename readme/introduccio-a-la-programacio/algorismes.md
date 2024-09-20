@@ -37,5 +37,15 @@ L'estandardització permet que els diagrames de flux siguin reconeguts i interpr
 
 A la següent "xuleta" o _cheat sheet_, hi ha molts més símbols dels que recull la norma comentada anteriorment. Els principals són l'**oval** (inici o final de procés), **rectangle** (operacions o accions), **rombe** (decisions / bifurcacions), **paral·lelogram** (entrada o sortida de dades) i les **fletxes** (flux de dades o execució).
 
-<figure><img src="https://cms.boardmix.com/images/articles/flowchart-symbols-cheatsheet.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cms.boardmix.com/images/articles/flowchart-symbols-cheatsheet.png" alt=""><figcaption><p>Blocs d'un diagrama de flux</p></figcaption></figure>
 
+{% hint style="info" %}
+Algunes aplicacions online que podem utilitzar per dissenyar-ne poden ser:
+
+* &#x20; [Draw.io](https://www.draw.io/)
+* &#x20; [LucidChart](https://www.lucidchart.com/)
+* &#x20; [Gliffy](https://www.gliffy.com/)
+* &#x20; [VisualParadigm](https://online.visual-paradigm.com/diagrams/solutions/free-class-diagram-tool/)
+* [  Diagrams.net](https://www.diagrams.net/)
+* [  cacoo](https://cacoo.com/signup)
+{% endhint %}

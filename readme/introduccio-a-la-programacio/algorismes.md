@@ -35,7 +35,14 @@ A continuació podeu veure les diferents formes i la utilitat que tenen, segueix
 
 L'estandardització permet que els diagrames de flux siguin reconeguts i interpretats de manera consistent per qualsevol persona, facilitant la comunicació i anàlisi de processos en diferents àmbits, com programació, negocis o enginyeria.
 
-A la següent "xuleta" o _cheat sheet_, hi ha molts més símbols dels que recull la norma comentada anteriorment. Els principals són l'**oval** (inici o final de procés), **rectangle** (operacions o accions), **rombe** (decisions / bifurcacions), **paral·lelogram** (entrada o sortida de dades) i les **fletxes** (flux de dades o execució).
+{% hint style="info" %}
+Les principals formes són:
+
+* **Oval:** inici o final de procés
+* **Rectangle:** operacions o accions
+* **Rombe:** decisions / bifurcacions
+* **Fletxa:** flux de dades o execució
+{% endhint %}
 
 <figure><img src="https://cms.boardmix.com/images/articles/flowchart-symbols-cheatsheet.png" alt=""><figcaption><p>Blocs d'un diagrama de flux</p></figcaption></figure>
 

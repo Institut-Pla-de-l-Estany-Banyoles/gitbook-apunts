@@ -49,3 +49,23 @@ Els tipus de dades en Java inclouen tant **tipus primitius** com **tipus referen
 {% endtab %}
 {% endtabs %}
 
+#### Exemple
+
+```java
+int enter = 10;
+float decimal = 3.14f;
+boolean esVeritat = true;
+char lletra = 'A';
+```
+
+### Operadors
+
+Els operadors s'utilitzen per efectuar càlculs, operacions o comparacions entre diferents valors.&#x20;
+
+**Aritmètics**: `+`, `-`, `*`, `/`, `%`
+
+```java
+int suma = 5 + 3;  // suma val 8
+int residu = 5 % 2;  // residu val 1
+```
+

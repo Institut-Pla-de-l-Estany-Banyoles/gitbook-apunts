@@ -16,7 +16,10 @@ import java.util.*; // Llibreries que es poden importar si cal
 class MevaClasse { // Definició d'una classe
     public static void main(String[] args) { // Mètode principal (punt d'entrada)
         // Aquí van les instruccions del programa
+        // ...
+        // ...
     }
+    //Aquí poden anar-hi més subprogrames definits per l'usuari (accions o funcions)
 }
 
 ```
@@ -38,14 +41,14 @@ Els tipus de dades en Java inclouen tant **tipus primitius** com **tipus referen
 <table><thead><tr><th width="114.66666666666666">Tipus</th><th width="103">Mida</th><th>Valors</th></tr></thead><tbody><tr><td><code>float</code></td><td>4 bytes</td><td>Un nombre de fins a 6 o 7 dígits decimals</td></tr><tr><td><code>double</code></td><td>8 bytes</td><td>Un nombre de fins a 15 dígits decimals</td></tr></tbody></table>
 {% endtab %}
 
+{% tab title="Caràcters" %}
+<table><thead><tr><th width="160">Tipus</th><th width="165">Mida</th><th>Valor</th></tr></thead><tbody><tr><td><code>char</code></td><td>2 bytes</td><td>Un sol caràcter codificat en ANSII</td></tr></tbody></table>
+{% endtab %}
+
 {% tab title="Boleans" %}
 | Tipus     | Mida  | Valors      |
 | --------- | ----- | ----------- |
 | `boolean` | 1 bit | Cert o Fals |
-{% endtab %}
-
-{% tab title="Caràcters" %}
-<table><thead><tr><th width="160">Tipus</th><th width="165">Mida</th><th>Valor</th></tr></thead><tbody><tr><td><code>char</code></td><td>2 bytes</td><td>Un sol caràcter codificat en ANSII</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
@@ -62,7 +65,7 @@ char lletra = 'A';
 
 Els operadors s'utilitzen per efectuar càlculs, operacions o comparacions entre diferents valors.&#x20;
 
-**Aritmètics**: `+`, `-`, `*`, `/`, `%`
+#### **Aritmètics**: `+`, `-`, `*`, `/`, `%`
 
 ```java
 int suma = 5 + 3;      // suma val 8
@@ -72,3 +75,54 @@ int div = 4 / 2;       // div = 2
 int residu = 5 % 2;    // residu val 1
 ```
 
+#### Relacionals:
+
+```java
+// Some code
+```
+
+#### Lògics:&#x20;
+
+```java
+// Some code
+```
+
+
+
+
+
+```java
+public class Aritmetica {
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 20;
+        
+        int resultat = x + y;
+        System.out.println("x + y = " + resultat);
+        
+        resultat = x - y;
+        System.out.println("x - y = " + resultat);
+        
+        resultat = x * y;
+        System.out.println("x * y = " + resultat);
+        
+        resultat = y / x;
+        System.out.println("y / x = " + resultat);
+        
+        resultat = x % 3;
+        System.out.println("x % 3 = " + resultat);
+    }
+}
+```
+
+<details>
+
+<summary>Quina serà la sortida de l'execució del codi anterior? <span data-gb-custom-inline data-tag="emoji" data-code="1f914">🤔</span></summary>
+
+x + y = 30 \
+x - y = -10\
+x \* y = 200 \
+y / x = 2\
+x % 3 = 1
+
+</details>

@@ -8,8 +8,6 @@
    * Variables simples i compostes
 2. Tipus de dades
    * Dades numèriques
-     * Tipus d'enters
-     * Tipus reals
    * Dades no numèriques
      * Caràcter
      * Booleans

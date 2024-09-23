@@ -1,5 +1,6 @@
 ---
 description: '#DamMp03Uf5'
+hidden: true
 ---
 
 # UF5 - POO: Llibreries de classes fonamentals

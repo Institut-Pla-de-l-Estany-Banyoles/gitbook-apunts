@@ -8,7 +8,7 @@
     * [Llenguatges de programació](readme/1.-introduccio-a-la-programacio/llenguatges-de-programacio.md)
     * [Del codi font a l'execució](readme/1.-introduccio-a-la-programacio/del-codi-font-a-lexecucio.md)
   * [2. - Dades i operacions](readme/2.-dades-i-operacions/README.md)
-    * [Constants i variables](readme/2.-dades-i-operacions/constants-i-variables.md)
+    * [Variables i constants](readme/2.-dades-i-operacions/variables-i-constants.md)
     * [Tipus de dades](readme/2.-dades-i-operacions/tipus-de-dades.md)
     * [Operadors](readme/2.-dades-i-operacions/operadors.md)
     * [Expressions i funcions](readme/2.-dades-i-operacions/expressions-i-funcions.md)

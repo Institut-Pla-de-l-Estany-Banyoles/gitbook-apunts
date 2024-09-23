@@ -1,5 +1,6 @@
 ---
 description: '#DamMp03Uf6'
+hidden: true
 ---
 
 # UF6 - POO: Introducció a la persistència en BD

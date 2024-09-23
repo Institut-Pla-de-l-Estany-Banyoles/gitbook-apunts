@@ -1,5 +1,6 @@
 ---
 description: '#DamMp03Uf3'
+hidden: true
 ---
 
 # UF3 - Fonaments de la gestió de fitxers

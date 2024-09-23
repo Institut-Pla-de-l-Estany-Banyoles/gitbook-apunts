@@ -65,7 +65,10 @@ Els operadors s'utilitzen per efectuar càlculs, operacions o comparacions entre
 **Aritmètics**: `+`, `-`, `*`, `/`, `%`
 
 ```java
-int suma = 5 + 3;  // suma val 8
-int residu = 5 % 2;  // residu val 1
+int suma = 5 + 3;      // suma val 8
+int resta = 3 - 2;     // resta val 1
+int mult = 2 * 5;      // mult = 10
+int div = 4 / 2;       // div = 2
+int residu = 5 % 2;    // residu val 1
 ```
 

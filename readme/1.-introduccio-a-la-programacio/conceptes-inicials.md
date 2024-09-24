@@ -9,7 +9,7 @@ description: >-
 * **Programa**: És un conjunt d'ordres o instruccions que es processen de manera seqüencial. Alguns exemples de programes són els de les rentadores o robots de cuina, que executen tasques específiques de manera ordenada.&#x20;
 
 {% hint style="info" %}
-En el nostre cas, els nostres programes s'executaran sobre un[ sistema informàtic](components-dun-sistema-informatic.md).
+En el cas que ocupa aquest mòdul professional, el sistema que executarà les instruccions del programa serà un sistema informàtic.
 {% endhint %}
 
 *   **Algorismes**: Són mètodes per resoldre problemes amb un seguit de passos finits. Un exemple senzill seria un algorisme per fer una truita, amb una seqüència de passos.&#x20;

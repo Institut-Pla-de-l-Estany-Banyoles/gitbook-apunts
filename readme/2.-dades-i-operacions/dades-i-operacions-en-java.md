@@ -119,10 +119,12 @@ public class Aritmetica {
 
 <summary>Quina serà la sortida de l'execució del codi anterior? <span data-gb-custom-inline data-tag="emoji" data-code="1f914">🤔</span></summary>
 
-x + y = 30 \
-x - y = -10\
-x \* y = 200 \
-y / x = 2\
+```
+x + y = 30 
+x - y = -10
+x * y = 200 
+y / x = 2
 x % 3 = 1
+```
 
 </details>

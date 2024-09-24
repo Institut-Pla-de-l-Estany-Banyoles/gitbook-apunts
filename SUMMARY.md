@@ -3,7 +3,6 @@
 * [MP03 - Programació](README.md)
   * [1. - Introducció a la programació](readme/1.-introduccio-a-la-programacio/README.md)
     * [Conceptes inicials](readme/1.-introduccio-a-la-programacio/conceptes-inicials.md)
-    * [Components d'un sistema informàtic](readme/1.-introduccio-a-la-programacio/components-dun-sistema-informatic.md)
     * [Algorismes](readme/1.-introduccio-a-la-programacio/algorismes.md)
     * [Llenguatges de programació](readme/1.-introduccio-a-la-programacio/llenguatges-de-programacio.md)
     * [Del codi font a l'execució](readme/1.-introduccio-a-la-programacio/del-codi-font-a-lexecucio.md)

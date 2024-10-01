@@ -28,7 +28,7 @@ Per contra, les **variables dinàmiques** es creen i destrueixen a mesura que es
 Totes aquestes variables que estem parlant són les que enmagatzemen dades de [tipus primitius](#user-content-fn-1)[^1]. Aquestes es troben a la **pila de memòria o** [**stack**](#user-content-fn-2)[^2]. No confondre amb els objectes creats mitjançant `new`, aquests elements es guarden a la **memòria dinàmica o** [**heap**](#user-content-fn-3)[^3]**.**
 {% endhint %}
 
-### Complexitat
+Complexitat
 
 Podem tenir variables simples que només emmagatzemen un valor o les compostes, que poden contenir més d'un valor o una combinació de dades.
 

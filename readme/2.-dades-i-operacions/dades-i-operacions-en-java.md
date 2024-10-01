@@ -24,7 +24,21 @@ class MevaClasse { // Definició d'una classe
 
 ```
 
-Aquest codi defineix una classe anomenada `MevaClasse` amb el mètode `main` que és el punt d'entrada del programa.
+Aquest codi defineix una classe anomenada `MevaClasse` amb el mètode `main` que és el punt d'entrada del programa. Això ens permetrà començar a provar les nostres primeres línies de codi.
+
+### Variables&#x20;
+
+Per poder a començar a utilitzar dades en els nostres programes, hem de **declarar les variables**. La declaració és la reserva d'aquell nom associat a un tipus de dada que serà. El tipus permet saber quant d'espai ha de reservar per emmagatzemar aquesta variable. La nomenclatura per fer-ho en Java és la següent:
+
+&#x20;       <mark style="color:red;">tipusVariable</mark> nomVariable;
+
+I no només això, per poder fer servir una variable, aquesta ha de tenir un **valor assignat**. Si intentem llegir el valor d'una variable a la qual mai se n'hi ha assignat un, ens trobarem amb un error. El primer cop que assignem un valor a una variable en diem inicialització. Ho podem fer juntament amb la declaració a la mateixa línia o a posteriori.
+
+&#x20;        <mark style="color:red;">tipusVariable</mark> nomVariable = <mark style="color:blue;">valorInicialització</mark>;
+
+Si ens ho imaginem de forma gràfica, la línia de codi <mark style="color:red;">`int`</mark>`age =`<mark style="color:blue;">`21`</mark>`;` acaba reservant un espai de memòria de 4 bytes (el que ocupa un `int`), associat al nom `age` i amb el valor `21` emmagatzemat en aquest espai de memòria.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>Declaració i inicialització d'una variable</p></figcaption></figure>
 
 ### **Tipus de dades**
 
@@ -65,7 +79,7 @@ char lletra = 'A';
 
 Els operadors s'utilitzen per efectuar càlculs, operacions o comparacions entre diferents valors.&#x20;
 
-#### **Aritmètics**: `+`, `-`, `*`, `/`, `%`
+#### **Aritmètics**: `+`, `-`, `*`, `/`, `%`, `++`, `--`
 
 ```java
 int suma = 5 + 3;      // suma val 8
@@ -73,23 +87,40 @@ int resta = 3 - 2;     // resta val 1
 int mult = 2 * 5;      // mult = 10
 int div = 4 / 2;       // div = 2
 int residu = 5 % 2;    // residu val 1
+
+num--;                 // es redueix el valor de la variable num en 1
+num++;                 // s'increment el valor de la vrialbe num en 1
 ```
 
-#### Relacionals:
+Si volem operar sobre el valor que conté una variable i guardar-lo allà mateix, podem utilitzar els operadors `+=`, `-=`, `*=`, `/=` o `%=`.
 
 ```java
-// Some code
+// Les dos operacions de cada una d'aquestes línies fa el mateix
+suma = suma + 2;                    suma += 2;
+resultat = resultat * 3             resultat *= 3;
 ```
 
-#### Lògics:&#x20;
+#### Relacionals: `==`, `!=`, `<`, `<=`, `>`, `>=`
 
 ```java
-// Some code
+// Aquest operadors ens permeten comparar elements
 ```
 
+#### Lògics: `&&`, `||`, `!`
 
+```java
+// Aquests operadors ens permeten realitzar operacions lògica
+```
 
+#### Assignació: `=`
 
+L'operador `=`, un de sol, és l'**operador d'assignació**. Aquest operador posar el valor de la dreta a la variable de l'esquerra.
+
+L'hem vist a les 5 primeres operacions, assignem el contingut de la dreta de l'operador a la variable que tenim a l'esquerra. En el cas de `suma = 5 + 3;`, assignem a la variable suma, el resultat de fer l'operació de la dreta `5 + 3`.
+
+***
+
+#### Exemples
 
 ```java
 public class Aritmetica {

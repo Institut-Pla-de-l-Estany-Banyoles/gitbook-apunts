@@ -1,30 +1,10 @@
 ---
 description: >-
-  Veurem com es concreten aquests diferents elements amb el llenguatge de
-  programació Java
+  Veurem com es concreten aquests diferents elements relacionats amb les dades i
+  operacions amb el llenguatge de programació Java
 ---
 
 # Dades i operacions en Java
-
-### **Estructura d’un programa Java**
-
-En Java, un programa està format per un o més fitxers que contenen classes. Cada classe pot tenir un punt d'entrada definit pel mètode `main()`. Aquest mètode és el primer que s'executa quan s'inicia el programa. L'estructura bàsica és:
-
-```java
-import java.util.*; // Llibreries que es poden importar si cal
-
-class MevaClasse { // Definició d'una classe
-    public static void main(String[] args) { // Mètode principal (punt d'entrada)
-        // Aquí van les instruccions del programa
-        // ...
-        // ...
-    }
-    //Aquí poden anar-hi més subprogrames definits per l'usuari (accions o funcions)
-}
-
-```
-
-Aquest codi defineix una classe anomenada `MevaClasse` amb el mètode `main` que és el punt d'entrada del programa. Això ens permetrà començar a provar les nostres primeres línies de codi.
 
 ### Variables&#x20;
 
@@ -38,7 +18,7 @@ I no només això, per poder fer servir una variable, aquesta ha de tenir un **v
 
 Si ens ho imaginem de forma gràfica, la línia de codi <mark style="color:red;">`int`</mark>`age =`<mark style="color:blue;">`21`</mark>`;` acaba reservant un espai de memòria de 4 bytes (el que ocupa un `int`), associat al nom `age` i amb el valor `21` emmagatzemat en aquest espai de memòria.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>Declaració i inicialització d'una variable</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p>Declaració i inicialització d'una variable</p></figcaption></figure>
 
 ### **Tipus de dades**
 

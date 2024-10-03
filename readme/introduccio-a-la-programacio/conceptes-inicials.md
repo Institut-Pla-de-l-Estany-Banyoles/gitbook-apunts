@@ -27,4 +27,4 @@ Un algorisme per escalfar l'aigua seria:
 * **Codi font:** és el conjunt d'instruccions escrites per un programador utilitzant un llenguatge de programació d'alt nivell (com Java, Python, C++, etc.). Aquest codi descriu el comportament d'un programa i és comprensible pels humans.
 * **IDE (Integrated Development Environment):** O Entorn de Desenvolupament Integrat, és el programa informàtic que ajuda i assisteix en la creació de nous programes.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="563"><figcaption><p>Visual Studio Code</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt="" width="563"><figcaption><p>Visual Studio Code</p></figcaption></figure>

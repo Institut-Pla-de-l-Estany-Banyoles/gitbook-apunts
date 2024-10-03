@@ -1,4 +1,8 @@
-# 1. - Introducció a la programació
+---
+icon: '1'
+---
+
+# Introducció a la programació
 
 ## Taula de continguts
 

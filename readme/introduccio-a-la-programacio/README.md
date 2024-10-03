@@ -7,12 +7,11 @@ icon: '1'
 ## Taula de continguts
 
 1. [Conceptes inicials](conceptes-inicials.md)
-2. Components d'un sistema informàtic
-3. Algoritmes
+2. [Algoritmes](algorismes.md)
    * Pseudocodi
    * Diagrama de flux
-4. Llenguatges de programació
+3. [Llenguatges de programació](llenguatges-de-programacio.md)
    * Segons abstracció
    * Segons execució
-5. Del codi font a l'execució
+4. [Estructura d'un programa en Java](estructura-dun-programa-en-java.md)
 

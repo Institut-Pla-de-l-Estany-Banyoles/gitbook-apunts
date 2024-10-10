@@ -59,7 +59,22 @@ boolean esMenorIgual = a <= b; // esMenorIgual val false, ja que 5 no és més p
 #### Lògics: `&&`, `||`, `!`
 
 ```java
-// Aquests operadors ens permeten realitzar operacions lògica
+// Aquests operadors ens permeten realitzar operacions lògiques
+boolean veritat = true;
+boolean fals = false;
+
+// Operador AND (&&): tots dos valors han de ser true perquè el resultat sigui true
+boolean resultatAnd = veritat && fals;  // resultatAnd val false, ja que una de les condicions és false
+
+// Operador OR (||): almenys un valor ha de ser true perquè el resultat sigui true
+boolean resultatOr = veritat || fals;   // resultatOr val true, ja que almenys una de les condicions és true
+
+// Operador NOT (!): inverteix el valor de la condició
+boolean negacio = !veritat;             // negacio val false, ja que inverteix el valor de veritat (true)
+
+boolean combinacio = (veritat || fals) && !fals;  // combinacio val true, perquè "veritat OR fals" dona true i "NOT fals" dona true
+
+
 ```
 
 #### Assignació: `=`
@@ -67,3 +82,45 @@ boolean esMenorIgual = a <= b; // esMenorIgual val false, ja que 5 no és més p
 L'operador `=`, un de sol, és l'**operador d'assignació**. Aquest operador posar el valor de la dreta a la variable de l'esquerra.
 
 L'hem vist a les 5 primeres operacions, assignem el contingut de la dreta de l'operador a la variable que tenim a l'esquerra. En el cas de `suma = 5 + 3;`, assignem a la variable suma, el resultat de fer l'operació de la dreta `5 + 3`.
+
+***
+
+#### Exemples
+
+```java
+public class Aritmetica {
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 20;
+        
+        int resultat = x + y;
+        System.out.println("x + y = " + resultat);
+        
+        resultat = x - y;
+        System.out.println("x - y = " + resultat);
+        
+        resultat = x * y;
+        System.out.println("x * y = " + resultat);
+        
+        resultat = y / x;
+        System.out.println("y / x = " + resultat);
+        
+        resultat = x % 3;
+        System.out.println("x % 3 = " + resultat);
+    }
+}
+```
+
+<details>
+
+<summary>Quina serà la sortida de l'execució del codi anterior? <span data-gb-custom-inline data-tag="emoji" data-code="1f914">🤔</span></summary>
+
+```
+x + y = 30 
+x - y = -10
+x * y = 200 
+y / x = 2
+x % 3 = 1
+```
+
+</details>

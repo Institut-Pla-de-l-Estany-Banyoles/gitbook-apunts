@@ -40,6 +40,49 @@ Podem tenir variables simples que només emmagatzemen un valor o les compostes, 
 Al principi del mòdul només treballarem amb dades simples, però de seguida afegirem estructures de dades i tuples.
 {% endhint %}
 
+***
+
+### Variables en Java&#x20;
+
+Per poder a començar a utilitzar dades en els nostres programes, hem de **declarar les variables**. La declaració és la reserva d'aquell nom associat a un tipus de dada que serà. El tipus permet saber quant d'espai ha de reservar per emmagatzemar aquesta variable. La nomenclatura per fer-ho en Java és la següent:
+
+&#x20;       <mark style="color:red;">tipusVariable</mark> nomVariable;        //Declaració d'una variable
+
+I no només això, per poder recuperar el valor d'una variable, aquesta primer ha de tenir un **valor assignat**. Si intentem llegir el valor d'una variable que mai se n'hi ha assignat un, ens trobarem amb un l'error:
+
+{% hint style="danger" %}
+<mark style="color:red;">Variable 'nomVariable' might not have been initialized.</mark>
+{% endhint %}
+
+El primer cop que assignem un valor a una variable en diem inicialització. Ho podem fer juntament amb la declaració a la mateixa línia o a posteriori.
+
+&#x20;       //Declaració i inicialització d'una variable en una sola línia\
+&#x20;        <mark style="color:red;">tipusVariable</mark> nomVariable = <mark style="color:blue;">valorInicialització</mark>;       &#x20;
+
+
+
+&#x20;        //Declaració i inicialització d'una variable en dues línies\
+&#x20;        <mark style="color:red;">tipusVariable</mark> nomVariable2;\
+&#x20;        nomVariable2 = <mark style="color:blue;">valorInicialització</mark>;       &#x20;
+
+Anem a veure de forma gràcia com seria aquest concepte dins el codi del nostre programa i la memòria de l'ordinador
+
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p>Declaració i inicialització d'una variable</p></figcaption></figure>
+
+La línia de codi <mark style="color:red;">`int`</mark>`age =`<mark style="color:blue;">`21`</mark>`;` acaba reservant un espai de memòria de 4 bytes (el que ocupa un `int`), associat al nom `age` i amb el valor `21` emmagatzemat en aquest espai de memòria.
+
+### Constants en Java&#x20;
+
+Com ja hem vist a l'explicació de l'inici, les **constants** no deixen de ser variables amb la particularitat que **el seu valor no pot canviar durant l'execució** del programa, mentre que les **variables** sí que poden variar el seu valor.
+
+Per tal d'informar a Java que una variable és constant, tenim l'identificador `final`. Per tant, per declarar una constant ho hem de fer de la següent forma:
+
+&#x20;       <mark style="color:purple;">final</mark> <mark style="color:red;">tipusVariable</mark> NOM\_VARIABLE = <mark style="color:blue;">valorInicialització</mark>;
+
+{% hint style="info" %}
+Els noms de les constants no segueixen la nomenclatura camelCase, sinó UPPER SNAKE\_CASE. Els seus noms són tots en majúscula i cada paraula va separada per un guió baix \_.
+{% endhint %}
+
 [^1]: Els [**tipus primitius de Java**](dades-i-operacions-en-java.md#tipus-primitius) són tipus de dades bàsics que no es basen en cap altre objecte o classe, i emmagatzemen valors directament a la memòria. Aquests tipus ofereixen una manera eficient de treballar amb dades senzilles com números, caràcters o valors booleans.
 
 [^2]: El **stack** és una àrea de memòria utilitzada per emmagatzemar variables locals i per gestionar les crides a funcions o mètodes. És una estructura de tipus LIFO (_Last In, First Out_), on les dades es col·loquen a la part superior de la pila i es treuen en ordre invers.

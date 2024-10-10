@@ -46,6 +46,12 @@ if (condicio) {
 }
 ```
 
+{% hint style="info" %}
+En Java també existeix l'oerador ternari. Ens permet fer un `if / else` de forma concisa en una sola línia. La seva sintaxis és la següent:
+
+`nom_variable = (expressió) ? valor_si_cert : valor_si_fals ;` &#x20;
+{% endhint %}
+
 #### Exemple en Java
 
 ```java
@@ -58,11 +64,21 @@ if (edat >= 18) {
 }
 ```
 
-### Estructura `if-else` anidada
+L'exemple anterior utilitzat l'operador ternari seria així:
+
+```java
+int edat = 16;
+
+String missatge = (edat >= 18) ? "Ets major d'edat." : "Ets menor d'edat.";
+
+System.out.println(missastge);
+```
+
+### Estructura `if-else` en cascada
 
 #### **Descripció**
 
-La instrucció `if-else` anidada ens permet executar un bloc de codi tenint en compte un conjunt de condicions.
+La instrucció `if-else` en cascada ens permet executar un bloc de codi tenint en compte un conjunt de condicions.
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 

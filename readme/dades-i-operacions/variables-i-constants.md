@@ -28,7 +28,7 @@ Per contra, les **variables dinàmiques** es creen i destrueixen a mesura que es
 Totes aquestes variables que estem parlant són les que enmagatzemen dades de [tipus primitius](#user-content-fn-1)[^1]. Aquestes es troben a la **pila de memòria o** [**stack**](#user-content-fn-2)[^2]. No confondre amb els objectes creats mitjançant `new`, aquests elements es guarden a la **memòria dinàmica o** [**heap**](#user-content-fn-3)[^3]**.**
 {% endhint %}
 
-Complexitat
+### Complexitat
 
 Podem tenir variables simples que només emmagatzemen un valor o les compostes, que poden contenir més d'un valor o una combinació de dades.
 
@@ -42,7 +42,7 @@ Al principi del mòdul només treballarem amb dades simples, però de seguida af
 
 ***
 
-### Variables en Java&#x20;
+## Variables en Java&#x20;
 
 Per poder a començar a utilitzar dades en els nostres programes, hem de **declarar les variables**. La declaració és la reserva d'aquell nom associat a un tipus de dada que serà. El tipus permet saber quant d'espai ha de reservar per emmagatzemar aquesta variable. La nomenclatura per fer-ho en Java és la següent:
 
@@ -71,7 +71,7 @@ Anem a veure de forma gràcia com seria aquest concepte dins el codi del nostre 
 
 La línia de codi <mark style="color:red;">`int`</mark>`age =`<mark style="color:blue;">`21`</mark>`;` acaba reservant un espai de memòria de 4 bytes (el que ocupa un `int`), associat al nom `age` i amb el valor `21` emmagatzemat en aquest espai de memòria.
 
-### Constants en Java&#x20;
+### Constants&#x20;
 
 Com ja hem vist a l'explicació de l'inici, les **constants** no deixen de ser variables amb la particularitat que **el seu valor no pot canviar durant l'execució** del programa, mentre que les **variables** sí que poden variar el seu valor.
 

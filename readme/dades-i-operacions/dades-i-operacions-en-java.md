@@ -2,6 +2,7 @@
 description: >-
   Veurem com es concreten aquests diferents elements relacionats amb les dades i
   operacions amb el llenguatge de programació Java
+hidden: true
 ---
 
 # Dades i operacions en Java

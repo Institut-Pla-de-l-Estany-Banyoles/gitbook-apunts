@@ -42,7 +42,9 @@ Al principi del mòdul només treballarem amb dades simples, però de seguida af
 
 ***
 
-## Variables en Java&#x20;
+## Variables i constants en Java&#x20;
+
+### Variables
 
 Per poder a començar a utilitzar dades en els nostres programes, hem de **declarar les variables**. La declaració és la reserva d'aquell nom associat a un tipus de dada que serà. El tipus permet saber quant d'espai ha de reservar per emmagatzemar aquesta variable. La nomenclatura per fer-ho en Java és la següent:
 
@@ -65,11 +67,49 @@ El primer cop que assignem un valor a una variable en diem inicialització. Ho p
 &#x20;        <mark style="color:red;">tipusVariable</mark> nomVariable2;\
 &#x20;        nomVariable2 = <mark style="color:blue;">valorInicialització</mark>;       &#x20;
 
-Anem a veure de forma gràcia com seria aquest concepte dins el codi del nostre programa i la memòria de l'ordinador
+Anem a veure de forma gràcia com seria aquest concepte dins el codi del nostre programa i la memòria de l'ordinador.
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p>Declaració i inicialització d'una variable</p></figcaption></figure>
 
 La línia de codi <mark style="color:red;">`int`</mark>`age =`<mark style="color:blue;">`21`</mark>`;` acaba reservant un espai de memòria de 4 bytes (el que ocupa un `int`), associat al nom `age` i amb el valor `21` emmagatzemat en aquest espai de memòria.
+
+### Notació
+
+En Java, hi ha una sèrie de condicions i regles que s'han de seguir per crear **noms de variables vàlids**. A continuació s'expliquen aquestes condicions:
+
+1. #### Caràcters Vàlids
+   * Els noms de variables només poden contenir **lletres (A-Z, a-z)**, **dígits (0-9)**, el **símbol del subratllat (\_)**, i el **símbol del dòlar ($)**.
+   * El nom **no pot començar amb un dígit** (0-9).
+   * No poden contenir espais en blanc
+2. #### Sensibilitat a Majúscules i Minúscules (case-sensitive)
+   * Els noms de variables són **case-sensitive**, és a dir, **distingeixen entre majúscules i minúscules**. Això vol dir que `Variable` i `variable` serien considerades dues variables diferents.
+3. #### Paraules Reservades
+   * No es poden utilitzar les **paraules reservades de Java** (com `int`, `class`, `for`, `if`, etc.) com a noms de variables.
+4. #### Longitud
+   * No hi ha un límit tècnic clar per la longitud del nom d'una variable, però és recomanable utilitzar noms curts però descriptius per fer el codi més llegible.
+5. #### Noms Significatius
+   * És una bona pràctica que els noms de variables siguin **significatius** i **fàcils de llegir**. Això fa que el codi sigui més comprensible per altres desenvolupadors (i per tu mateix).
+6. #### Patrons Habituals per als Noms
+   * Es recomana seguir l'estil **camelCase** per als noms de variables. En aquest estil, la primera lletra és minúscula i cada paraula següent comença amb majúscula.
+
+```java
+int x = 5;            // Vàlid
+int _variable = 10;   // Vàlid però no recomenat
+int $total = 100;     // Vàlid però no recomenat
+int 1var = 20;        // Invàlid, no pot començar amb un número
+int num alumnes = 10; // Invàlid, no pot contenir espais
+
+int Variable = 10;    // Vàlid
+int variable = 20;    // Vàlid, és una variable diferent
+
+int class = 10;       // Invàlid, ja que `class` és una paraula reservada
+
+int count = 5;        // Vàlid i recomanat (curt i descriptiu)
+int c = 5;            // Vàlid, però poc descriptiu
+
+int nombreEstudiants = 30;  // Vàlid i descriptiu
+int n = 30;                 // Vàlid, però no descriptiu
+```
 
 ### Constants&#x20;
 

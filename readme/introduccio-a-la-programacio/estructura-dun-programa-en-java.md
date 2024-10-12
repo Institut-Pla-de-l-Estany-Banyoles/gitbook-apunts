@@ -29,3 +29,8 @@ class MevaClasse { // Definició d'una classe
 {% endcode %}
 
 Aquest codi defineix una classe anomenada `MevaClasse` amb el mètode `main` que és el punt d'entrada del programa. Això ens permetrà començar a provar les nostres primeres línies de codi.
+
+#### Comentaris
+
+El codi font d'un program no només conté instruccions per ser executades, també inclouen el comentaris
+

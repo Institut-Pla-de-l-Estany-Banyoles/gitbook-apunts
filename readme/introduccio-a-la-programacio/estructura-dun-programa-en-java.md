@@ -30,7 +30,17 @@ class MevaClasse { // Definició d'una classe
 
 Aquest codi defineix una classe anomenada `MevaClasse` amb el mètode `main` que és el punt d'entrada del programa. Això ens permetrà començar a provar les nostres primeres línies de codi.
 
-#### Comentaris
+### Comentaris
 
-El codi font d'un program no només conté instruccions per ser executades, també inclouen el comentaris
+El codi font d'un programa no només conté instruccions per ser executades, també inclouen els comentaris. Aquests permeten als programadors documentar el codi. Aquestes línies no s'executen, només serveixen per afegir explicacions o documentació dins del codi.
 
+1. Comentaris de línia `//`
+   * Per fer comentaris breus que expliquen una sola línia o instrucció de codi.
+   * És útil per documentar petites accions o passos dins d'un mètode.
+2. Comentaris de bloc `/*  */`
+   * Per fer comentaris més extensos que expliquen seccions completes de codi.
+   * Ideal per descriure mètodes, funcions o blocs de lògica complexa.
+3. Comentaris de documentació `/** */`
+   * Per documentar classes, mètodes o atributs de manera detallada.
+   * Permet generar documentació HTML automàtica mitjançant eines com **Javadoc**.
+   * Pot incloure etiquetes especials com `@param` o `@return` per descriure els paràmetres i els valors de retorn.

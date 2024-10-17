@@ -16,7 +16,7 @@
     * [Dades i operacions en Java](readme/dades-i-operacions/dades-i-operacions-en-java.md)
   * [Estructures de control](readme/estructures-de-control/README.md)
     * [Estructures condicionals](readme/estructures-de-control/estructures-condicionals.md)
-  * [Page 1](readme/page-1.md)
+  * [Estructures de dades](readme/estructures-de-dades.md)
   * [UF3 - Fonaments de la gestió de fitxers](mp03-programacio/uf3-fonaments-de-la-gestio-de-fitxers/README.md)
     * [Gestió de fitxers](mp03-programacio/uf3-fonaments-de-la-gestio-de-fitxers/gestio-de-fitxers.md)
     * [Tractament bàsic de dades](readme/uf3-fonaments-de-la-gestio-de-fitxers/tractament-basic-de-dades/README.md)

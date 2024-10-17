@@ -46,7 +46,7 @@ Al principi del mòdul només treballarem amb dades simples, però de seguida af
 
 ### Variables
 
-Per poder a començar a utilitzar dades en els nostres programes, hem de **declarar les variables**. La declaració és la reserva d'aquell nom associat a un tipus de dada que serà. El tipus permet saber quant d'espai ha de reservar per emmagatzemar aquesta variable. La nomenclatura per fer-ho en Java és la següent:
+Per poder a començar a utilitzar dades en els nostres programes, hem de **declarar les variables**. La declaració és la reserva d'aquell nom associat al tipus de dada que serà. El tipus permet saber quant d'espai ha de reservar-se per emmagatzemar aquesta variable. La nomenclatura per fer-ho en Java és la següent:
 
 &#x20;       <mark style="color:red;">tipusVariable</mark> nomVariable;        //Declaració d'una variable
 
@@ -56,7 +56,7 @@ I no només això, per poder recuperar el valor d'una variable, aquesta primer h
 <mark style="color:red;">Variable 'nomVariable' might not have been initialized.</mark>
 {% endhint %}
 
-El primer cop que assignem un valor a una variable en diem inicialització. Ho podem fer juntament amb la declaració a la mateixa línia o a posteriori.
+El primer cop que assignem un valor a una variable en diem **inicialització**. Ho podem fer juntament a la  línia que la declaració o a posteriori.
 
 &#x20;       //Declaració i inicialització d'una variable en una sola línia\
 &#x20;        <mark style="color:red;">tipusVariable</mark> nomVariable = <mark style="color:blue;">valorInicialització</mark>;       &#x20;

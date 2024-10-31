@@ -1,6 +1,6 @@
 # Estructures condicionals
 
-Les estructures condicionals permeten executar diferents blocs d'instruccions depenent del valor d'una condició. En Java, les principals estructures condicionals són: `if`, `if-else`, `else-if`, i `switch`.
+Les estructures condicionals permeten executar diferents blocs d'instruccions depenent del valor d'una condició. Ens permeten prendre decisions en funció de valors, estats o diferents situacions que pugui prendre l'execució del programa. En Java, les principals estructures condicionals són: `if`, `if-else`, `else-if`, i `switch`.
 
 ### Estructura `if`
 
@@ -8,7 +8,7 @@ Les estructures condicionals permeten executar diferents blocs d'instruccions de
 
 La instrucció `if` avalua una condició booleana. Si aquesta condició és certa (`true`), s'executa el bloc de codi associat. Si és falsa, el bloc de codi s'ignora.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="330"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="330"><figcaption></figcaption></figure>
 
 **Sintaxi**
 
@@ -155,7 +155,9 @@ switch (dia) {
     default:
         System.out.println("Un altre dia");
 }
+```
 
+```java
 // A partir de la versió Java 17 podem fer servir l'"Enhanced Switch" que millora la 
 // llegibilitat de l'estructura i alguna funcionalitat més
 

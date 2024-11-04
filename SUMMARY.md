@@ -17,6 +17,7 @@
   * [Estructures de control](readme/estructures-de-control/README.md)
     * [Estructures condicionals](readme/estructures-de-control/estructures-condicionals.md)
     * [Estructures repetitives](readme/estructures-de-control/estructures-repetitives.md)
+    * [Estructures de salt](readme/estructures-de-control/estructures-de-salt.md)
     * [Control d'excepcions](readme/estructures-de-control/control-dexcepcions.md)
     * [Assercions](readme/estructures-de-control/assercions.md)
   * [Estructures de dades](readme/estructures-de-dades.md)

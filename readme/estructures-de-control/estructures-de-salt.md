@@ -111,8 +111,9 @@ return valor;  // Per a mètodes que retornen un valor
 Aquest exemple mostra com utilitzar `return` per finalitzar un mètode i retornar el resultat d'una operació.
 
 ```java
-javaCopia el codipublic class ExempleReturn {
-
+public class ExempleReturn {
+    
+    //Mètode que donats dos valors enters a i b, retorna la seva multiplicació
     public static int multiplicar(int a, int b) {
         return a * b; // Retorna el resultat de multiplicar a per b
     }

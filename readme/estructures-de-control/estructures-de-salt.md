@@ -65,7 +65,7 @@ continue;
 Aquest exemple mostra com utilitzar `continue` per saltar la impressió del número 5 dins d'un bucle `for`.
 
 ```java
-javaCopia el codifor (int i = 1; i <= 10; i++) {
+for (int i = 1; i <= 10; i++) {
     if (i == 5) {
         continue; // Salta aquesta iteració quan i és 5
     }

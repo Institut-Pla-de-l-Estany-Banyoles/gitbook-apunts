@@ -1,6 +1,6 @@
 # Table of contents
 
-* [MP03 - Programació](README.md)
+* [MP485 - Programació](README.md)
   * [Introducció a la programació](readme/introduccio-a-la-programacio/README.md)
     * [Conceptes inicials](readme/introduccio-a-la-programacio/conceptes-inicials.md)
     * [Algorismes](readme/introduccio-a-la-programacio/algorismes.md)

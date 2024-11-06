@@ -33,8 +33,6 @@ Aquest tipus de diagrama és molt útil per visualitzar processos complexos d'un
 
 A continuació podeu veure les diferents formes i la utilitat que tenen, segueixen un estàndard definit per la norma **ISO 5807** (Documentació del procés d'informació). Aquest estàndard descriu els símbols més utilitzats en la representació d'algorismes i processos.
 
-L'estandardització permet que els diagrames de flux siguin reconeguts i interpretats de manera consistent per qualsevol persona, facilitant la comunicació i anàlisi de processos en diferents àmbits, com programació, negocis o enginyeria.
-
 {% hint style="info" %}
 Les principals formes són:
 
@@ -45,6 +43,8 @@ Les principals formes són:
 {% endhint %}
 
 <figure><img src="https://cms.boardmix.com/images/articles/flowchart-symbols-cheatsheet.png" alt=""><figcaption><p>Blocs d'un diagrama de flux</p></figcaption></figure>
+
+L'estandardització permet que els diagrames de flux siguin reconeguts i interpretats de manera consistent per qualsevol persona, facilitant la comunicació i anàlisi de processos en diferents àmbits, com programació, negocis o enginyeria.
 
 {% hint style="info" %}
 Algunes aplicacions online que podem utilitzar per dissenyar-ne poden ser:

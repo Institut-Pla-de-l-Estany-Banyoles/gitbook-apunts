@@ -55,4 +55,5 @@ Algunes aplicacions online que podem utilitzar per dissenyar-ne poden ser:
 * &#x20; [VisualParadigm](https://online.visual-paradigm.com/diagrams/solutions/free-class-diagram-tool/)
 * [  Diagrams.net](https://www.diagrams.net/)
 * [  cacoo](https://cacoo.com/signup)
+* &#x20; [Microsoft Visio](https://www.microsoft.com/es-es/microsoft-365/visio/flowchart-software)
 {% endhint %}

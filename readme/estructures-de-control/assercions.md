@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Assercions
 
 Les **assercions** són una eina per fer comprovacions en el codi **durant el desenvolupament**. S'utilitzen per verificar condicions que, si són falses, indiquen un error en la lògica del programa. Les assercions són especialment útils per a proves i depuració, ja que ajuden a identificar errors de manera precoç.
@@ -38,26 +34,6 @@ assert valor >= 0 : "El valor ha de ser positiu!";
 
 ***
 
-### Com activar les assercions
-
-Les assercions estan **desactivades per defecte** en Java per evitar penalitzacions de rendiment en entorns de producció. Es poden activar en temps d'execució utilitzant l'opció de línia de comandes `-ea` (enable assertions).
-
-#### Activar assertions en la línia de comandes:
-
-```bash
-java -ea NomPrograma
-```
-
-* Per desactivar les assercions, es pot fer servir l'opció `-da` (disable assertions), que és l'opció predeterminada.
-
-#### Exemple d'execució
-
-```bash
-java -ea ExempleAssertions
-```
-
-***
-
 ### Ús d'assercions: Bones pràctiques
 
 #### 3.1 Verificació de condicions que no han de fallar
@@ -80,7 +56,7 @@ Les assertions no són adequades per a gestionar errors que es produeixin a caus
 **Exemple (mala pràctica):**
 
 ```java
-javaCopia el codi// No és recomanable utilitzar assertions per validar dades d'usuari.
+// No és recomanable utilitzar assertions per validar dades d'usuari.
 assert nomUsuari != null : "El nom d'usuari no pot ser null!";
 ```
 
@@ -91,7 +67,7 @@ Les assertions poden combinar condicions lògiques complexes per assegurar-se qu
 **Exemple:**
 
 ```java
-javaCopia el codiint altura = 180;
+int altura = 180;
 int amplada = 100;
 assert altura > 0 && amplada > 0 : "L'altura i l'amplada han de ser positives!";
 ```
@@ -100,14 +76,14 @@ En aquest exemple, l'assertion comprova que tant `altura` com `amplada` són pos
 
 ***
 
-### 4. Llançament d'Errors d'Assertion
+### Llançament d'Errors d'Assertion
 
 Quan una assertion falla (és a dir, quan la condició de l'assertion és `false`), es llança un `AssertionError`. Aquest error inclou el missatge d'error opcional que ajuda a identificar la causa del problema.
 
 **Exemple amb missatge d'error personalitzat:**
 
 ```java
-javaCopia el codiint resultat = calcularResultat();
+int resultat = calcularResultat();
 assert resultat >= 0 : "El resultat ha de ser positiu, però és " + resultat;
 ```
 
@@ -115,12 +91,26 @@ Si `resultat` és negatiu, es llançarà un `AssertionError` amb el missatge esp
 
 ***
 
-### Resum de les Assertions en Java
+### Com activar les assercions
 
-| Aspecte         | Descripció                                                                     |
-| --------------- | ------------------------------------------------------------------------------ |
-| **Sintaxi**     | `assert condicio : missatge;`                                                  |
-| **Activació**   | S'activen amb `-ea` en la línia de comandes                                    |
-| **Ús adequat**  | Verificar condicions internes que no haurien de fallar                         |
-| **No per a**    | No s'han d'utilitzar per validar dades externes o entrades de l'usuari         |
-| **Quan fallar** | Llança un `AssertionError` si la condició és `false`, amb un missatge opcional |
+Les assercions estan **desactivades per defecte** en Java per evitar penalitzacions de rendiment en entorns de producció. Es poden activar en temps d'execució utilitzant l'opció de línia de comandes `-ea` (enable assertions).
+
+#### Activar assertions en la línia de comandes:
+
+```bash
+java -ea NomPrograma
+```
+
+* Per desactivar les assercions, es pot fer servir l'opció `-da` (disable assertions), que és l'opció predeterminada.
+
+#### Activar assertions a IntelliJ
+
+1. Selecciona`Run` → `Edit Configurations...`.
+2. Selecciona la configuració d'execució en qüestió
+3. Clica `Modify options` i selecciona `Add VM options`
+4. Afegeix`-ea` a `VM options`
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+

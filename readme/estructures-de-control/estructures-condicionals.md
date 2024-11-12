@@ -8,7 +8,7 @@ Les estructures condicionals permeten executar diferents blocs d'instruccions de
 
 La instrucció `if` avalua una condició booleana. Si aquesta condició és certa (`true`), s'executa el bloc de codi associat. Si és falsa, el bloc de codi s'ignora.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="330"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="330"><figcaption></figcaption></figure>
 
 **Sintaxi**
 

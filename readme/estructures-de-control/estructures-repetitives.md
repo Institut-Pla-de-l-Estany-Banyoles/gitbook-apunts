@@ -78,7 +78,7 @@ Iteració 5
 
 A continuació podem veure el diagrama de flux de les dues estructures i observar com en un cas la condició s'avalua abans i en l'altre després d'executar el bloc d'instruccions repetitives.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="354"><figcaption><p>Diagrama de flux While i Do-While</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="354"><figcaption><p>Diagrama de flux While i Do-While</p></figcaption></figure>
 
 ### Bucle `for`
 

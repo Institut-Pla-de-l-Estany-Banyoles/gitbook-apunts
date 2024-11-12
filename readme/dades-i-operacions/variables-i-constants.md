@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Variables i constants
 
 Les dades són una de les parts principals de qualsevol aplicació informàtica, qualsevol element que s'hagi de processar, analitzar, calcular, consultar, comparar... Serà una dada que està guardada en el nostre sistema informàtic, sigui de manera temporal o persistent.
@@ -123,7 +137,7 @@ Per tal d'informar a Java que una variable és constant, tenim l'identificador `
 Els noms de les constants no segueixen la nomenclatura camelCase, sinó UPPER SNAKE\_CASE. Els seus noms són tots en majúscula i cada paraula va separada per un guió baix \_.
 {% endhint %}
 
-[^1]: Els [**tipus primitius de Java**](dades-i-operacions-en-java.md#tipus-primitius) són tipus de dades bàsics que no es basen en cap altre objecte o classe, i emmagatzemen valors directament a la memòria. Aquests tipus ofereixen una manera eficient de treballar amb dades senzilles com números, caràcters o valors booleans.
+[^1]: Els [**tipus primitius de Java**](broken-reference) són tipus de dades bàsics que no es basen en cap altre objecte o classe, i emmagatzemen valors directament a la memòria. Aquests tipus ofereixen una manera eficient de treballar amb dades senzilles com números, caràcters o valors booleans.
 
 [^2]: El **stack** és una àrea de memòria utilitzada per emmagatzemar variables locals i per gestionar les crides a funcions o mètodes. És una estructura de tipus LIFO (_Last In, First Out_), on les dades es col·loquen a la part superior de la pila i es treuen en ordre invers.
 

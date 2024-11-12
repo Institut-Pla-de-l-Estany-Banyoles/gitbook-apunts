@@ -25,7 +25,7 @@ icon: '2'
    * Funcions matemàtiques comunes
 5. [Conversió de tipus](conversions-de-tipus.md)
    * Conversió explícita i implícita
-6. [Dades i operacions en Java](dades-i-operacions-en-java.md)
+6. [Dades i operacions en Java](broken-reference)
    * Estructura d'un programa Java
    * Comentaris i bones pràctiques
    * Exemples d'ús de dades i operacions en Java

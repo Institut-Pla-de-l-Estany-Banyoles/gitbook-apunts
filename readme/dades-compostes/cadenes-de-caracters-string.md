@@ -1,0 +1,2 @@
+# Cadenes de Caràcters (String)
+

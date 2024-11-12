@@ -83,7 +83,7 @@ El primer cop que assignem un valor a una variable en diem **inicialització**. 
 
 Anem a veure de forma gràcia com seria aquest concepte dins el codi del nostre programa i la memòria de l'ordinador.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Declaració i inicialització d'una variable</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Declaració i inicialització d'una variable</p></figcaption></figure>
 
 La línia de codi <mark style="color:red;">`int`</mark>`age =`<mark style="color:blue;">`21`</mark>`;` acaba reservant un espai de memòria de 4 bytes (el que ocupa un `int`), associat al nom `age` i amb el valor `21` emmagatzemat en aquest espai de memòria.
 

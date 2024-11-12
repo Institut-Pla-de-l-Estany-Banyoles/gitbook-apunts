@@ -1,0 +1,2 @@
+# Altres tipus
+

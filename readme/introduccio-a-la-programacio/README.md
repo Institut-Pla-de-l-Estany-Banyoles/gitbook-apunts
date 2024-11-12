@@ -1,5 +1,5 @@
 ---
-icon: '1'
+icon: location-dot
 ---
 
 # Introducció a la programació

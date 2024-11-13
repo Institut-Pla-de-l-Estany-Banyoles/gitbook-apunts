@@ -94,5 +94,35 @@ dades[1][3] = 10
 És important tenir en compte que l'índex del primer element d'un array és el 0
 {% endhint %}
 
+#### Accés seqüencial
+
+Si en comptes d'accedir a un sol element puntual d'un array, volem accedir (tant si és per lectura com per escriptura) cada un dels elements d'un array, el que hem de fer és un recorregut. Per fer-ho, la forma més habitual és mitjançant un bucle `for` o un `for-each`
+
+```java
+//Donat un vector d'enters anomenat dades i amb 5 elements
+int[] dades = new int[5];
+
+//Mostrem cada un dels seus elements
+for (int i = 0; i < dades.length; i++) {
+    System.out.println(dades[i]);
+}
+```
+
+{% hint style="info" %}
+Podem consultar la mida que té un array, mijançant la propietat `length` d'aquest. Podem recuperar el valor guardat dins aquesta propietat fent `nomArray.length`
+{% endhint %}
+
+Tal com hem comentat, també existeix l'iterador `for-each`. Aquest consulta  automàticament tots els elements d'un array sense haver de controlar l'índex. El codi següent dona el mateix resultat que l'anterior
+
+```java
+//Donat un vector d'enters anomenat dades i amb 5 elements
+int[] dades = new int[5];
+
+//Mostrem cada un dels seus elements
+for (int dada : dades) {
+    System.out.println(dada);
+}
+```
+
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 

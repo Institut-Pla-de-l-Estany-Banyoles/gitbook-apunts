@@ -21,7 +21,7 @@ Podem representar els algoritmes en forma de text mitjançant **pseudocodi** o d
 
 És una forma simplificada d'expressar els passos d'un algorisme mitjançant un llenguatge natural o aproximat, sense seguir la sintaxi específica d'un llenguatge de programació fent servir paraules clau i estructures pròpies de programació. L'objectiu del pseudocodi és ser fàcil d'entendre per humans, sense preocupar-se dels detalls tècnics propis d'un llenguatge de programació concret.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="304"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt="" width="304"><figcaption></figcaption></figure>
 
 ### **Diagrames de flux**
 
@@ -29,7 +29,7 @@ Un **diagrama de flux** és una representació gràfica d'un procés o algorisme
 
 Aquest tipus de diagrama és molt útil per visualitzar processos complexos d'una manera fàcil d'entendre, facilitant l'anàlisi i la resolució de problemes. S'utilitza àmpliament en programació, negocis i altres àmbits per planificar o comunicar passos lògics o decisions.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Diagrama de flux simple</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Diagrama de flux simple</p></figcaption></figure>
 
 A continuació podeu veure les diferents formes i la utilitat que tenen, segueixen un estàndard definit per la norma **ISO 5807** (Documentació del procés d'informació). Aquest estàndard descriu els símbols més utilitzats en la representació d'algorismes i processos.
 

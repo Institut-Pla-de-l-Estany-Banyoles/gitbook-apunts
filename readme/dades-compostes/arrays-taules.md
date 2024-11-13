@@ -2,7 +2,9 @@
 
 Els **arrays**, són estructures que emmagatzemen un conjunt d’elements del mateix tipus. En els arrays, cada element té un índex que permet accedir-hi de manera directa.
 
+<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="354"><figcaption><p><a href="https://www.geeksforgeeks.org/applications-advantages-and-disadvantages-of-array-data-structure/">GeeksforGeeks.org</a></p></figcaption></figure>
 
+Per definir un array, primer hem d'indicar el tipus d'elements que contindrà, seguit de les dimensions que tindrà i per últim el nom que li donarem.
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="310"><figcaption></figcaption></figure>
 
@@ -72,8 +74,6 @@ int[][] dades = {
 
 Per accedir directament a un dels elements d'un array, hem de fer servir el seu índex. `nomArray[`<mark style="color:blue;">`indexOnVolemAccedir`</mark>`]`, tant podem fer-ho servir per consultar el seu valor com assignar-ne.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
-
 {% hint style="warning" %}
 És important tenir en compte que l'índex del primer element d'un array és el 0!
 {% endhint %}
@@ -93,4 +93,6 @@ dades[1][3] = 10
 ```
 {% endtab %}
 {% endtabs %}
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 

@@ -72,11 +72,7 @@ int[][] dades = {
 
 #### Accés directe
 
-Per accedir directament a un dels elements d'un array, hem de fer servir el seu índex. `nomArray[`<mark style="color:blue;">`indexOnVolemAccedir`</mark>`]`, tant podem fer-ho servir per consultar el seu valor com assignar-ne.&#x20;
-
-{% hint style="warning" %}
-És important tenir en compte que l'índex del primer element d'un array és el 0!
-{% endhint %}
+Per accedir directament a un dels elements d'un array, hem de fer servir el seu índex. `nomArray[`<mark style="color:blue;">`index`</mark>`]`, tant podem fer-ho servir per consultar el seu valor com assignar-ne.&#x20;
 
 {% tabs %}
 {% tab title="Una dimensió" %}
@@ -93,6 +89,10 @@ dades[1][3] = 10
 ```
 {% endtab %}
 {% endtabs %}
+
+{% hint style="warning" %}
+És important tenir en compte que l'índex del primer element d'un array és el 0
+{% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 

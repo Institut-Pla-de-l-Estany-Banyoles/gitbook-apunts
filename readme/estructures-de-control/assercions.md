@@ -105,12 +105,26 @@ java -ea NomPrograma
 
 #### Activar assertions a IntelliJ
 
-1. Selecciona`Run` → `Edit Configurations...`.
-2. Selecciona la configuració d'execució en qüestió
-3. Clica `Modify options` i selecciona `Add VM options`
-4. Afegeix`-ea` a `VM options`
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+{% stepper %}
+{% step %}
+Selecciona`Run` → `Edit Configurations...`
+{% endstep %}
 
+{% step %}
+Selecciona la configuració d'execució en qüestió
+{% endstep %}
+
+{% step %}
+Clica `Modify options` i selecciona `Add VM options`
+
+<img src="../../.gitbook/assets/image (3) (1).png" alt="" data-size="original">
+{% endstep %}
+
+{% step %}
+Afegeix`-ea` a `VM options`
+
+<img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" data-size="original">
+{% endstep %}
+{% endstepper %}

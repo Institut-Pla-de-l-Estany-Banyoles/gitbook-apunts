@@ -52,6 +52,7 @@ int[][][][] ... [] dades;    //Declarem un array de N dimensions
 {% tab title="Una dimensió" %}
 ```java
 int[] numeros = {1, 2, 3, 4, 5};    //Array d'enters amb valors inicials
+String[] noms = {"tu", "jo", "ell"}
 ```
 {% endtab %}
 

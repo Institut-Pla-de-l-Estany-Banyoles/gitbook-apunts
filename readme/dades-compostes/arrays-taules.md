@@ -99,6 +99,8 @@ dades[1][3] = 10
 
 Si en comptes d'accedir a un sol element puntual d'un array, volem accedir (tant si és per lectura com per escriptura) cada un dels elements d'un array, el que hem de fer és un recorregut. Per fer-ho, la forma més habitual és mitjançant un bucle `for` o un `for-each`
 
+{% tabs %}
+{% tab title="Una dimensió" %}
 ```java
 //Donat un vector d'enters anomenat dades i amb 5 elements
 int[] dades = new int[5];
@@ -108,6 +110,22 @@ for (int i = 0; i < dades.length; i++) {
     System.out.println(dades[i]);
 }
 ```
+{% endtab %}
+
+{% tab title="Dues dimensions" %}
+```java
+//Donat un vector d'enters anomenat dades i amb 5 elements
+int[][] taula = new int[2][5];
+
+//Mostrem tots els elements. Per cada fila que tingui, recorrem tots els elements
+for (int i = 0; i < taula.length; i++) {
+    for (int j = 0; j < taula[i].length; j++) {
+        System.out.println(taula[i][j]);
+    }
+}
+```
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 Podem consultar la mida que té un array, mijançant la propietat `length` d'aquest. Podem recuperar el valor guardat dins aquesta propietat fent `nomArray.length`

@@ -8,7 +8,7 @@ Les estructures condicionals permeten executar diferents blocs d'instruccions de
 
 La instrucció `if` avalua una condició booleana. Si aquesta condició és certa (`true`), s'executa el bloc de codi associat. Si és falsa, el bloc de codi s'ignora.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="330"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="330"><figcaption></figcaption></figure>
 
 **Sintaxi**
 
@@ -34,7 +34,7 @@ if (edat >= 18) {
 
 La instrucció `if-else` permet executar un bloc de codi si la condició és certa i un altre bloc si és falsa.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="342"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="342"><figcaption></figcaption></figure>
 
 #### Sintaxi
 

@@ -32,5 +32,5 @@ A continuació, detallem els tipus de dades compostes més utilitzats en program
 1. [Arrays (Taules)](arrays-taules.md)
 2. [Cadenes de Caràcters (String)](cadenes-de-caracters-string.md)
 3. [Tuples](tuples.md)
-4. [Altres tipus ](altres-tipus.md)
+4. [Altres tipus ](col-leccions.md)
 

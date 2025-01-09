@@ -60,7 +60,7 @@ Els mètodes de la classe File no escalen bé. Això pot generar problemes en al
 
 
 
-A causa d'aquests problemes, Oracle va desenvolupar la millorada API NIO2. **Sempre que sigui possible, s'hauria de mirar d'utilitzar el nou paquet **_**java.nio**_ en lloc de les classes antigues.
+A causa d'aquests problemes, Oracle va desenvolupar la millorada API NIO2. **Sempre que sigui possible, s'hauria de mirar d'utilitzar el nou paquet&#x20;**_**java.nio**_ en lloc de les classes antigues.
 
 ### Instanciar File i Path
 

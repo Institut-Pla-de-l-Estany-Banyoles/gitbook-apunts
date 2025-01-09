@@ -8,11 +8,11 @@ Podem classificar els llenguatges segons el seu nivell d'abstracció o segons el
 
 * **Llenguatges de baix nivell**: Com el **llenguatge assemblador**, són propers al codi màquina i interactuen directament amb el maquinari. Són difícils d'entendre per humans, però molt eficients per a l'ordinador.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="320"><figcaption><p>Llenguatge de baix nivell</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="320"><figcaption><p>Llenguatge de baix nivell</p></figcaption></figure>
 
 * **Llenguatges d'alt nivell**: Com **Python, Java, C++**, són més comprensibles per a humans perquè utilitzen sintaxi més propera al llenguatge natural. Aquests llenguatges es tradueixen a codi màquina mitjançant compiladors o intèrprets perquè l'ordinador els pugui executar.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="203"><figcaption><p>Llenguatge d'alt nivell</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="203"><figcaption><p>Llenguatge d'alt nivell</p></figcaption></figure>
 
 ### **Llenguatges compilats o interpretats**
 
@@ -28,7 +28,7 @@ Python, JavaScript, PHP, Ruby, Perl, Lua...
 
 Java, C#, Basic, Kotlin...
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Procediment llenguatges híbrids</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption><p>Procediment llenguatges híbrids</p></figcaption></figure>
 
 {% hint style="info" %}
 Podem fer un símil d'aquests diferents tipus de llenguatge i la feina que fa un traductor o intèrpret.&#x20;

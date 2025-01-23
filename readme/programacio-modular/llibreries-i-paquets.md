@@ -41,6 +41,8 @@ A part de les llibreries integrades en Java pels seus desenvolupadors, podem tro
 
 <figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p><a href="https://www.tatvasoft.com/outsourcing/2024/02/java-libraries.html">https://www.tatvasoft.com/outsourcing/2024/02/java-libraries.html</a></p></figcaption></figure>
 
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p><a href="https://vlinkinfo.com/blog/most-popular-libraries-in-java/">https://vlinkinfo.com/blog/most-popular-libraries-in-java/</a></p></figcaption></figure>
+
 ### Paquets (Packages)
 
 Un **paquet** en Java és un mecanisme per organitzar classes i interfaces en un jerarquia de directoris. Cada paquet té un nom únic que evita conflictes de noms entre classes de diferents paquets.

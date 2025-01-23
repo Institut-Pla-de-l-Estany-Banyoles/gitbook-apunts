@@ -37,7 +37,7 @@ Java ve equipat amb un conjunt robust de llibreries estàndard que proporcionen 
   * Proporcionen classes per a crear interfícies gràfiques d'usuari (GUI).
   * S'utilitzen per a desenvolupar aplicacions amb interfícies gràfiques.
 
-A part de les llibreries integrades en Java pel mateix fabricant en JDK, podem importar llibreries externes que ens obriran les portes a moltes altres funcionalitats.
+A part de les llibreries integrades en Java pels seus desenvolupadors, podem trobar i importar llibreries externes desenvolupades per altres empreses o comunitats de software lliure que ens obriran les portes a moltes altres funcionalitats.
 
 <figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p><a href="https://www.tatvasoft.com/outsourcing/2024/02/java-libraries.html">https://www.tatvasoft.com/outsourcing/2024/02/java-libraries.html</a></p></figcaption></figure>
 

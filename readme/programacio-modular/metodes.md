@@ -24,7 +24,7 @@ Podem distingir dos tipus de mètodes segons si retornen o no informació despr�
 
 Un mètode es defineix seguint aquesta estructura:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Definició d'un mètode</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Definició d'un mètode</p></figcaption></figure>
 
 ```markup
 [modificador] [tipus de retorn] nomMètode([paràmetres]) {

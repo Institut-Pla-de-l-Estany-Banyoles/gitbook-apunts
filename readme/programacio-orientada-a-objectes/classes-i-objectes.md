@@ -14,9 +14,9 @@ Un **objecte** és una instància d'una classe. Cada objecte creat a partir d'un
 
 ***
 
-Un objecte és la representació de qualsevol element en un sistema informàtic.
+Una **classe** és la representació abstracta d'un objecte. Hem de prendre les característiques indispensables per identificar els diferents tipus d'objectes que se'n poden crear d'aquesta i les accions.  És important analitzar quines **característiques (atributs)** i **capacitats (mètodes)** té el model que volem representar. L'**objecte** és la representació concreta que es crea a partir del motlle definit a la **classe**.
 
-
+<figure><img src="../../.gitbook/assets/Class-Object.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -25,9 +25,12 @@ Exemple:
 ```java
 // Definició de la classe
 class Persona {
+    
+    // Atributs
     String nom;
     int edat;
-
+    
+    // Mètodes
     void presentar() {
         System.out.println("Hola, em dic " + nom + " i tinc " + edat + " anys.");
     }

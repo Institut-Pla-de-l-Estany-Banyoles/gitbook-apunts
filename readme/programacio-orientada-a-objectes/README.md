@@ -25,9 +25,9 @@ Es tracta de posar el focus en **què s'ha de fer** i **no amb com s'ha de fer.*
 
 ### Resolució de problemes mitjançant l'abstracció
 
-L'abstracció consisteix a simplificar un problema destacant només els detalls més importants d'una entitat. Extreure l'essència d'aquella entitat i definir-ne les propietats que la representen.
+Fins ara, per resoldre problemes hem aplicat programació estructurada i posteriorment la descomposició, dividir un problema amb subproblemes més simples. No deixarem de banda aquestes metodologies de programació i resolució de problemes, però ara n'entrarà una nova en joc, l'**abstracció**. Aquesta consisteix a simplificar un problema destacant només els detalls més importants d'una entitat. Extreure l'essència d'aquella entitat i definir-ne les propietats que la representen.
 
-Posem per cas que volem fer un programa que simuli una cursa de camells. Els camells reals tenen moltes característiques i capacitats.
+Posem per cas que volem fer un programa que **simuli una cursa de camells**. Els camells reals tenen moltes característiques i capacitats, i fins i tot els camells virtuals en poden tenir moltes, però ens haurem de quedar amb les més importants i significatives per la resolució del nostre problema.
 
 <figure><img src="../../.gitbook/assets/image (19).png" alt="" width="351"><figcaption><p>Cursa de camells</p></figcaption></figure>
 
@@ -38,7 +38,7 @@ Posem per cas que volem fer un programa que simuli una cursa de camells. Els cam
 Penseu que per implementar el nostre joc de la cursa de camells necessitem que els nostres camells tinguin totes aquestes característiques?&#x20;
 {% endhint %}
 
-Aquí és on hem d'aplicar l'abstracció. Quines són les característiques i accions que han de tenir els nostres camells?
+Aquí és on hem d'aplicar l'abstracció. Quines són les característiques i accions imprescindibles que han de tenir els nostres camells per poder resoldre el nostre problema?
 
 ### Avantatges de la Programació Orientada a Objectes
 

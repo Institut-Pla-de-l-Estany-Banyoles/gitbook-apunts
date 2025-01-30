@@ -6,7 +6,7 @@ Els **arrays**, són estructures que emmagatzemen un conjunt d’elements del ma
 
 Per definir un array, primer hem d'indicar el tipus d'elements que contindrà, seguit de les dimensions que tindrà i per últim el nom que li donarem.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="310"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="310"><figcaption></figcaption></figure>
 
 Segons el nombre de `[]`, definim les dimensions que tindrà l'array. Java no té un límit de dimensions, però la màquina JVM les limita a 255.
 

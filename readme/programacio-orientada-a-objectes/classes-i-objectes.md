@@ -24,7 +24,7 @@ Una **classe** és la representació abstracta d'un objecte. Hem de prendre les 
 
 Tot fitxer de codi font amb Java és una classe. Qualsevol fitxer .java és una classe. Podem distingir quatre parts principals en les classes. Els atributs, els constructors, els mètodes de consulta i modificació i els mètodes d'objecte o de classe.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### 🟥 **Atributs (Propietats o Camps)**
 
@@ -137,11 +137,19 @@ public void setEdat(int edat) {
 
 ***
 
-### 🟧 Mètodes de Classe i Mètodes d'Objecte
+### 🟧 Mètodes de Classe i d'Objecte
 
 Els **mètodes** són accions que un objecte pot realitzar. Defineixen el comportament de la classe.
 
+
+
+
+
 <mark style="background-color:red;">TODOOOOOOOO</mark>
+
+
+
+
 
 ### **Resum**
 

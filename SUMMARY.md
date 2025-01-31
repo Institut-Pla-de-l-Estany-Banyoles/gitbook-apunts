@@ -29,6 +29,8 @@
     * [Llibreries i paquets](readme/programacio-modular/llibreries-i-paquets.md)
   * [Programació Orientada a Objectes](readme/programacio-orientada-a-objectes/README.md)
     * [Classes i Objectes](readme/programacio-orientada-a-objectes/classes-i-objectes.md)
+    * [Definir classes](readme/programacio-orientada-a-objectes/definir-classes.md)
+    * [Crear objectes](readme/programacio-orientada-a-objectes/crear-objectes.md)
     * [Page 1](readme/programacio-orientada-a-objectes/page-1.md)
   * [Estructures de dades](readme/estructures-de-dades.md)
   * [UF3 - Fonaments de la gestió de fitxers](mp03-programacio/uf3-fonaments-de-la-gestio-de-fitxers/README.md)

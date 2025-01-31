@@ -8,7 +8,7 @@ Les estructures condicionals permeten executar diferents blocs d'instruccions de
 
 La instrucció `if` avalua una condició booleana. Si aquesta condició és certa (`true`), s'executa el bloc de codi associat. Si és falsa, el bloc de codi s'ignora.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="330"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="330"><figcaption></figcaption></figure>
 
 **Sintaxi**
 
@@ -34,7 +34,7 @@ if (edat >= 18) {
 
 La instrucció `if-else` permet executar un bloc de codi si la condició és certa i un altre bloc si és falsa.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="342"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="342"><figcaption></figcaption></figure>
 
 #### Sintaxi
 
@@ -80,7 +80,7 @@ System.out.println(missastge);
 
 La instrucció `if-else` en cascada ens permet executar un bloc de codi tenint en compte un conjunt de condicions.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Sintaxi
 
@@ -120,7 +120,7 @@ if (nota < 50) {
 
 La instrucció `switch` s’utilitza quan es vol comparar una expressió amb múltiples valors possibles. És una alternativa més llegible a la successió d’`if-else` que hem vist a l'apartat anterior.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="398"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt="" width="398"><figcaption></figcaption></figure>
 
 #### Sintaxi
 

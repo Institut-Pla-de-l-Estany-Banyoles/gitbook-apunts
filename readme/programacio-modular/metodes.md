@@ -2,6 +2,8 @@
 
 ### Què són els Mètodes?
 
+{% embed url="https://www.youtube.com/watch?t=&v=K5IELYVaGlc" %}
+
 Un **mètode** és un bloc de codi amb un nom identificador que es pot cridar per executar una tasca específica. Els mètodes ajuden a dividir un programa en petites unitats lògiques.
 
 Podem distingir dos tipus de mètodes segons si retornen o no informació després de la seva execució. Les **accions** i les **funcions**.

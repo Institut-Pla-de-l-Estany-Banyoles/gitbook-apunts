@@ -2,6 +2,8 @@
 
 ### Conceptes bàsics
 
+{% embed url="https://www.youtube.com/watch?v=TS8JbZlsSwg" %}
+
 #### Què és una Classe?
 
 Una **classe** és una plantilla que defineix les **propietats (atributs)** i els **comportaments (mètodes)** d'un objecte. La classe simplement és una descripció de les **característiques** i **capacitats** que pot tenir una entitat.

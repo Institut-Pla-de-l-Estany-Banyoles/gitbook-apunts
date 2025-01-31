@@ -14,7 +14,7 @@ Es tracta de posar el focus en **què s'ha de fer** i **no amb com s'ha de fer.*
 
 <figure><img src="../../.gitbook/assets/image-removebg-preview (1).png" alt="" width="322"><figcaption><p>Imatge de Xevi Sala</p></figcaption></figure>
 
-### Objectiu de la P.O.O.:
+### Objectiu de la P.O.O.
 
 * Facilitar el **disseny** i el **manteniment** del codi. Incrementant la capacitat d'afegir noves funcionalitats sense modificar el codi existent.
 * Millorar la **reutilització** del codi mitjançant la creació de components modulars i independents.

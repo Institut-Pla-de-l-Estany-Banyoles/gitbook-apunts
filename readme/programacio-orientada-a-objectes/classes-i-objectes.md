@@ -1,8 +1,16 @@
 # Classes i Objectes
 
-### Conceptes bàsics
+#### Què és una Classe?
 
 {% embed url="https://www.youtube.com/watch?v=TS8JbZlsSwg" %}
+
+#### Què és una Classe?
+
+Un **objecte** és la representació de qualsevol element en un sistema informàtic. En canvi, una **classe** és com el motlle que ens permet crear objectes d'un tipus concret.&#x20;
+
+<figure><img src="../../.gitbook/assets/objectes.png" alt="" width="251"><figcaption></figcaption></figure>
+
+
 
 #### Què és una Classe?
 
@@ -17,8 +25,6 @@ Un **objecte** és una instància d'una classe. Cada objecte creat a partir d'un
 <figure><img src="../../.gitbook/assets/image (18).png" alt="" width="188"><figcaption></figcaption></figure>
 
 ***
-
-Una **classe** és la representació abstracta d'un objecte. Hem de prendre les característiques i les accions indispensables per representar els diferents tipus d'objectes que es poden crear a partir d'aquesta.  És important analitzar quines **característiques (atributs)** i **capacitats (mètodes)** té el model que volem representar. L'**objecte** és la representació concreta que es crea a partir del motlle definit a la **classe**.
 
 <figure><img src="../../.gitbook/assets/Class-Object.png" alt=""><figcaption></figcaption></figure>
 

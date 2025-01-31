@@ -6,32 +6,6 @@ Tot fitxer de codi font amb Java és una classe. Qualsevol fitxer .java és una 
 
 ### **Atributs (Propietats o Camps)**
 
-<details>
-
-<summary></summary>
-
-Els **atributs** són les propietats o característiques de l'objecte. Representen l'estat de cada instància de la classe.
-
-#### **Característiques**
-
-* Representen **dades** relacionades amb l'objecte.
-* Haurien de ser **privats** (`private`) per evitar modificacions no controlades.
-* Se solen inicialitzar dins del **constructor** o mitjançant **mètodes setters**.
-
-#### 📌 **Exemple de codi**
-
-```java
-public class Persona {
-
-    private String nom;
-    private int edat;
-}
-```
-
-</details>
-
-
-
 Els **atributs** són les propietats o característiques de l'objecte. Representen l'estat de cada instància de la classe.
 
 #### **Característiques**

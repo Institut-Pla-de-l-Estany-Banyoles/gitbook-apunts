@@ -2,7 +2,7 @@
 
 Tot fitxer de codi font amb Java és una classe. Qualsevol fitxer .java és una classe. Podem distingir quatre parts principals en les classes. Els atributs, els constructors, els mètodes de consulta i modificació (getters i setters) i els mètodes d'objecte o de classe.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### **Atributs (Propietats o Camps)**
 
@@ -106,6 +106,8 @@ public void setEdat(int edat) {
 }
 ```
 
+:bulb:En el cas de les propietats tipus `boolean`, els seus mètodes de consulta i accés són `is` i `set`. Posem per cas que una _Assignatura_ o un _Alumne_ tenen una propietat de tipus booleà anomenada aprovat. En aquest cas, per consultar el seu estat seria _isAprovat()_ i per assignar-li un valor `setAprovat(true)`
+
 {% hint style="warning" %}
 **Per a què són importants els mètodes `setter`?**
 
@@ -127,11 +129,11 @@ Característiques
 
     * **D'objecte**: necessiten una instància de la classe (un objecte) per ser cridat
 
-    <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
     * **De classe:** es defineixen amb la paraula clau `static`, per invocar-los s'ha d'utilitzar el nom de la classe.
 
-    <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### 📌 **Exemple de codi**
 

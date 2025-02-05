@@ -69,7 +69,17 @@ if (nota >= 5){
 
 ***
 
-### Invocar els seus mètodes
+### Invocar els mètodes
+
+Per executar les accions associades als objectes o les classes, hem d'utilitzar els seus mètodes. Igual que a l'apartat anterior, aquí ho fem amb l'operador `.` després del nom l'objecte.
+
+```java
+unAlumne.realitzarExamen("/programació/examens/prova1.pdf");
+
+unaPersona.saluda();
+
+jugador.ataca(enemic);
+```
 
 
 

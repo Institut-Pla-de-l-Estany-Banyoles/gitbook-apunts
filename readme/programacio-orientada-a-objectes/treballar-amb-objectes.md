@@ -12,19 +12,19 @@ Per crear instàncies de la classe, utilitzem els seus **`constructors`.** Segon
 Alumne unAlumne = new Alumne();
 ```
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ```java
 Alumne unAlumne = new Alumne("Joan", 25, 7.5f);
 ```
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption><p>Imatges de Fernando Porrino</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption><p>Imatges de Fernando Porrino</p></figcaption></figure>
 
 En el cas del constructor amb paràmetres anteriors, podem veure que a part de crear l'objecte i reservar l'espai a memòria, ens ha assignat els valors inicials de l'objecte amb "Joan" al camp `nom`, 25 a la seva `edat` i 7.5 a la seva `nota`.
 
 ***
 
-### Accedir a les seves propietats
+### Accedir a les propietats dels objectes
 
 Per accedir a les propietats d'un mètode usarem els mètodes de consulta i modificació (`getters i setters`). En cas que l'objecte tingui algun **atribut públic**, podrem accedir directament a aquesta propietat.
 
@@ -80,8 +80,3 @@ unaPersona.saluda();
 
 jugador.ataca(enemic);
 ```
-
-
-
-
-

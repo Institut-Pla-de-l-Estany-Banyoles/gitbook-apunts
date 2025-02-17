@@ -143,6 +143,8 @@ public void saluda(){
 }
 ```
 
+***
+
 ### **Resum**
 
 | **Atributs**                     | Emmagatzemen les dades de l'objecte.                         |

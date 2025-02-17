@@ -34,7 +34,7 @@ if (edat >= 18) {
 
 La instrucció `if-else` permet executar un bloc de codi si la condició és certa i un altre bloc si és falsa.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="342"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="342"><figcaption></figcaption></figure>
 
 #### Sintaxi
 

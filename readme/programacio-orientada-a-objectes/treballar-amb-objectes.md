@@ -18,7 +18,7 @@ Alumne unAlumne = new Alumne();
 Alumne unAlumne = new Alumne("Joan", 25, 7.5f);
 ```
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>Imatges de Fernando Porrino</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption><p>Imatges de Fernando Porrino</p></figcaption></figure>
 
 En el cas del constructor amb paràmetres anteriors, podem veure que a part de crear l'objecte i reservar l'espai a memòria, ens ha assignat els valors inicials de l'objecte amb "Joan" al camp `nom`, 25 a la seva `edat` i 7.5 a la seva `nota`.
 

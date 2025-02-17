@@ -33,7 +33,7 @@
     * [Treballar amb objectes](readme/programacio-orientada-a-objectes/treballar-amb-objectes.md)
     * [Conceptes clau en la POO](readme/programacio-orientada-a-objectes/conceptes-clau-en-la-poo/README.md)
       * [Encapsulació](readme/programacio-orientada-a-objectes/conceptes-clau-en-la-poo/encapsulacio.md)
-      * [Relació entre Classes](readme/programacio-orientada-a-objectes/conceptes-clau-en-la-poo/relacio-entre-classes.md)
+      * [Relació](readme/programacio-orientada-a-objectes/conceptes-clau-en-la-poo/relacio.md)
       * [Herència](readme/programacio-orientada-a-objectes/conceptes-clau-en-la-poo/herencia.md)
   * [Estructures de dades](readme/estructures-de-dades.md)
   * [UF3 - Fonaments de la gestió de fitxers](mp03-programacio/uf3-fonaments-de-la-gestio-de-fitxers/README.md)

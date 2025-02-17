@@ -1,4 +1,4 @@
-# Relació entre Classes
+# Relació
 
 Per poder crear **programes més rics i complets** que ens permetin representar **situacions més complexes**, és imprescindible poder **definir relacions entre les classes** que el componen. És per això, que existeixen diferents tipus de **relacions entre classes** que és important conèixer. Això permet **construir objectes més complexos combinant altres objectes**.
 
@@ -8,13 +8,12 @@ En **Programació Orientada a Objectes (POO)**, els objectes poden interactuar e
 
 ### 1. Associació
 
-📌 **Definició:**\
 L’**associació** és una relació **general** entre dues classes, on un objecte pot referenciar un altre. Aquesta relació pot ser de dos tipus:
 
 * **Unidireccional**: Un objecte coneix l'altre, però no a l'inrevés.
 * **Bidireccional**: Els dos objectes es coneixen mútuament.
 
-📌 **Exemple:** Un **Professor** pot estar associat amb una **Escola**.
+**Exemple:** Un **Professor** pot estar associat amb una **Escola**.
 
 ```java
 class Professor {
@@ -61,10 +60,13 @@ public class ExempleAssociacio {
 
 ### 2. Agregació (Relació _"té un"_)
 
-📌 **Definició:**\
 L'**agregació** és un tipus d'associació **fluixa**, on una classe conté una altra com a atribut, però els dos objectes **poden existir independentment**.
 
-📌 **Exemple:** Un **Departament** pot tenir molts **Empleats**, però un **Empleat** pot existir sense estar associat a cap departament.
+En UML, representem l'agregació amb la figura del rombe buit
+
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="350"><figcaption></figcaption></figure>
+
+**Exemple:** Un **Departament** pot tenir molts **Empleats**, però un **Empleat** pot existir sense estar associat a cap departament.
 
 ```java
 class Empleat {
@@ -118,10 +120,13 @@ public class ExempleAgregacio {
 
 ### 3. Composició (Relació _"forma part de"_)
 
-📌 **Definició:**\
 La **composició** és un tipus d'agregació **forta**, on una classe **no pot existir sense l’altra**. Quan l'objecte contenidor s'elimina, els seus components també es destrueixen.
 
-📌 **Exemple:** Un **Cos** té un **Cor**, i un cor no pot existir sense un cos; si el cos desapareix, el cor també.
+En UML, representem la composició amb la figura del rombe ple
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="355"><figcaption></figcaption></figure>
+
+**Exemple:** Un **Cos** té un **Cor**, i un cor no pot existir sense un cos; si el cos desapareix, el cor també.
 
 ```java
 // Classe que representa un òrgan del cos humà

@@ -1,9 +1,8 @@
 # Encapsulació
 
-📌 **Què és?**\
 L’**encapsulació** consisteix a restringir l’accés als atributs i mètodes d’un objecte per protegir les dades internes i evitar modificacions no controlades.
 
-📌 **Com s’aconsegueix?**
+**Com s’aconsegueix?**
 
 * Es declara els **atributs com a `private`** perquè no es puguin modificar directament.
 * Es proporcionen **mètodes `getters` i `setters`** per controlar l’accés als atributs.

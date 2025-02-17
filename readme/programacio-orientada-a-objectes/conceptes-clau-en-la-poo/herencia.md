@@ -2,7 +2,7 @@
 
 L’**herència** és el mecanisme que permet a una classe (subclasse) **heretar** atributs i mètodes d’una altra classe (superclasse). Això permet reutilitzar codi i definir relacions de jerarquia.
 
-**📌 Com es defineix en Java?**\
+**Com es defineix en Java?**\
 S’utilitza la paraula clau `extends` per indicar que una classe hereta d’una altra.&#x20;
 
 **📌 Exemple d’Herència en Java**

@@ -1,6 +1,6 @@
 # Relacions entre classes
 
-Per poder crear **programes més rics, complets i escalables,** que ens permetin representar **situacions més complexes**, és imprescindible poder **definir relacions entre les classes** que el componen. És per això, que existeixen diferents tipus de **relacions entre classes** que és important conèixer. Això permet **construir objectes més complexos combinant altres objectes**.
+Per poder crear **programes més rics, complets i escalables** que ens permetin representar **situacions més complexes**, és imprescindible poder **definir relacions entre les classes**. És per això, que existeixen diferents tipus de **relacions** que és important conèixer. Això permet **construir objectes més complexos combinant altres objectes**.
 
 En **Programació Orientada a Objectes (POO)**, els objectes poden interactuar entre si establint relacions. Aquestes relacions es classifiquen en **associació, agregació i composició**, que indiquen el nivell de dependència entre els objectes.
 
@@ -13,7 +13,7 @@ L’**associació** és una relació **general** entre dues classes, on un objec
 * **Unidireccional**: Un objecte coneix l'altre, però no a l'inrevés.
 * **Bidireccional**: Els dos objectes es coneixen mútuament.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Es considera que hi ha una **associació** entre dues classes quan es vol indicar que els objectes d’una classe poden cridar operacions sobre els objectes d’una altra.
 {% endhint %}
 
@@ -80,7 +80,7 @@ Qualsevol associació en què el dissenyador posaria un verb de l’estil _té_,
 
 ### 1. Agregació
 
-Una **agregació** és un tipus d’associació especial que especifica explícitament que hi ha una relació de tot-part entre els objectes de l’agregat (el tot) i el component (la part).
+Una **agregació** és un tipus d’associació que especifica explícitament que hi ha una relació de tot-part entre els objectes de l’agregat (el tot) i el component (la part).
 
 L'**agregació** és un tipus d'associació **fluixa**, on una classe conté una altra com a atribut, però els dos objectes **poden existir independentment**.
 

@@ -1,5 +1,7 @@
 # Encapsulació
 
+Un dels **objectius de la programació orientada a objectes** és **l’encapsulació** de dades i de mètodes de manera que els programadors usuaris d’una classe només poden accedir a les dades mitjançant els mètodes que la mateixa classe proporciona.
+
 El principi **d’encapsulació**, o d’**ocultació d’informació**, es basa en l’ocultació de les decisions de disseny, de manera que canvis en una classe afectin el mínim possible el programari ja desenvolupat.
 
 L’**encapsulació** consisteix a restringir l’accés als atributs i mètodes d’un objecte per protegir les dades internes i evitar modificacions no controlades.
@@ -48,8 +50,4 @@ public class Persona {
 ✅ Protegeix les dades d'accés no autoritzat.\
 ✅ Evita modificacions incorrectes dels atributs.\
 ✅ Permet validar dades abans de modificar-les.
-
-{% hint style="info" %}
-Un dels objectius de la programació orientada a objectes és **l’encapsulació** de dades i de mètodes de manera que els programadors usuaris d’una classe només poden accedir a les dades mitjançant els mètodes que la mateixa classe proporciona.
-{% endhint %}
 

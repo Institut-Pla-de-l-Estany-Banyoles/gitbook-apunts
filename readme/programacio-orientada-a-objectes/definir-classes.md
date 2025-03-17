@@ -2,7 +2,7 @@
 
 Tot fitxer de codi font amb Java és una classe. Qualsevol fitxer .java és una classe. Podem distingir quatre parts principals en les classes. Els atributs, els constructors, els mètodes de consulta i modificació (getters i setters) i els mètodes d'objecte o de classe.
 
-<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Atributs (Propietats o Camps)**
 

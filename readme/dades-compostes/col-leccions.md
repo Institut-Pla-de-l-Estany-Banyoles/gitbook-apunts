@@ -164,7 +164,9 @@ System.out.println("Mida: " + noms.size()); // Sortida: 1
 1. **Flexible**: La mida pot canviar dinàmicament.
 2. **Accés Ràpid**: Accés a elements mitjançant índexs.
 3. **Compatible**: Suporta moltes operacions definides a la interfície `List`.
+{% endhint %}
 
+{% hint style="info" %}
 #### <mark style="background-color:red;">Limitacions</mark>
 
 1. **Rendiment en Insercions:** Afegir elements al mig o al principi pot ser lent, ja que cal desplaçar els elements.

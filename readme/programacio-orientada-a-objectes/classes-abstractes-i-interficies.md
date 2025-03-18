@@ -108,11 +108,9 @@ Aquí, `Ocell` i `Avio` implementen la interfície `Volador`, cosa que permet qu
 Podem veure les **interfícies** com a **classes abstractes pures**, classes abstractes que **no poden tenir ni cap atribut ni cap mètode implementat.** Tot i que les interfícies si que permeten atributs constants i&#x20;
 {% endhint %}
 
-
-
 ***
 
-### **4. Diferències entre Classes Abstractes i Interfícies**
+### **Diferències entre Classes Abstractes i Interfícies**
 
 | Característica        | Classes Abstractes                                  | Interfícies                                                               |
 | --------------------- | --------------------------------------------------- | ------------------------------------------------------------------------- |
@@ -123,21 +121,12 @@ Podem veure les **interfícies** com a **classes abstractes pures**, classes abs
 
 ***
 
-### :question:**Quan utilitzar cadascuna?**
+### **Quan utilitzar cadascuna?**
 
 ✅ **Usa una classe abstracta** quan necessites definir **atributs i mètodes compartits** entre diferents subclasses.
 
 ✅ **Usa una interfície** quan diferents classes han de compartir **un mateix comportament**, però no tenen relació directa per herència.
 
-***
-
-### ✅ **Conclusions**
-
-✔️ Les **classes abstractes** permeten crear una base comuna per a diverses subclasses.\
-✔️ Les **interfícies** permeten definir comportaments compartits entre classes sense forçar relacions d’herència.\
-✔️ Utilitzar **herència i polimorfisme** de manera adequada facilita l’organització i escalabilitat del codi.
-
-🎯 **Regla general:**
-
-* **Si vols compartir codi entre subclasses, usa una classe abstracta.**
-* **Si només vols definir un contracte sense compartir implementació, usa una interfície.**
+🎯 **Regla general:**\
+\- Si vols compartir codi entre subclasses, usa una classe abstracta.\
+\- Si només vols definir un contracte sense compartir implementació, usa una interfície.

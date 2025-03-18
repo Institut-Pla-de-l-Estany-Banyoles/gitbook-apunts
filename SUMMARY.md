@@ -37,6 +37,7 @@
       * [Herència](readme/programacio-orientada-a-objectes/conceptes-clau-en-la-poo/herencia.md)
       * [Polimorfisme](readme/programacio-orientada-a-objectes/conceptes-clau-en-la-poo/polimorfisme.md)
     * [Classes abstractes i interfícies](readme/programacio-orientada-a-objectes/classes-abstractes-i-interficies.md)
+    * [Principis de Disseny SOLID](readme/programacio-orientada-a-objectes/principis-de-disseny-solid.md)
   * [Estructures de dades](readme/estructures-de-dades.md)
   * [Fonaments de la gestió de fitxers](mp03-programacio/uf3-fonaments-de-la-gestio-de-fitxers/README.md)
     * [Gestió de fitxers](mp03-programacio/uf3-fonaments-de-la-gestio-de-fitxers/gestio-de-fitxers.md)

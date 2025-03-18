@@ -1,14 +1,10 @@
 # Polimorfisme
 
-### 💡**Introducció**
-
 El **polimorfisme** és un dels principis fonamentals de la Programació Orientada a Objectes (POO), juntament amb l'herència, l'encapsulació i l'abstracció. El terme prové del grec (_πολύ_ _polí_ ‘molts’, i _μορφή_ _morfé_ ‘forma, figura’) i significa moltes formes, fent referència a la capacitat d'un mateix mètode o operador de comportar-se de manera diferent segons el context.
 
 Gràcies al polimorfisme, podem escriure codi més flexible i reutilitzable, evitant la duplicació i facilitant la mantenibilitat.
 
 ***
-
-Podem distingir dos tipus de polimorfisme:
 
 ### **Polimorfisme en temps de compilació - `Overloading`**
 
@@ -90,7 +86,7 @@ Aquí, la variable `a1` és del tipus `Animal`, però quan cridem `ferSoroll()`,
 A part de veure l'aplicació de la sobreescriptura de mètodes, aquí estem fent un `upcasting`, estem fent passar un objecte de la classe Gat i una de la classe Gos com un Animal.
 
 {% hint style="info" %}
-Quan hem estat implementant el mètode `toString()` a les classes que hem estat fent fins ara, el que feiem era **sobreescriure el mètode** `toString()` que defineix la classe `Object`. Ho podeu identificar fàcilment perquè veurem l'anotació `@override` a sobre la signatura del mètode.
+Quan hem estat implementant el mètode `toString()`, el que feiem era **sobreescriure el mètode** `toString()` que defineix la classe `Object`. Ho podeu identificar fàcilment perquè veurem l'anotació `@Override` a sobre la signatura del mètode.
 
 En Java, tota classe hereda de la classe Object, no cal posar la paraula extends, ho fa automàticament.
 {% endhint %}

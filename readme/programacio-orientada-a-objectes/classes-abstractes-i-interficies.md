@@ -1,13 +1,11 @@
 # Classes abstractes i interfícies
 
-### 💡 **Introducció**
-
-Les **classes abstractes** i les **interfícies** són eines fonamentals en la Programació Orientada a Objectes (POO) que permeten definir **estructures comunes** per a múltiples classes i establir **contractes d’implementació**.
+Les **classes abstractes** i les **interfícies** són eines que permeten definir **estructures comunes** per a múltiples classes i establir **contractes d’implementació**.
 
 * **Classes abstractes**: Són plantilles per a altres classes, poden contenir mètodes concrets i abstractes (sense implementació).
 * **Interfícies**: Defineixen un conjunt de mètodes que han de ser implementats per qualsevol classe que les implementi.
 
-Aquestes estructures ajuden a aconseguir una major modularitat i reutilització de codi.
+Aquestes estructures ajuden a aconseguir una major modularitat, reutilització de codi i potencien el polimorfisme.
 
 ***
 
@@ -104,7 +102,13 @@ public class Main {
 }
 ```
 
-Aquí, `Ocell` i `Avio` implementen la interfície `Volador`, permetent que siguin tractats de manera homogènia.
+Aquí, `Ocell` i `Avio` implementen la interfície `Volador`, cosa que permet que siguin tractats de manera homogènia.
+
+{% hint style="info" %}
+Podem veure les **interfícies** com a **classes abstractes pures**, classes abstractes que **no poden tenir ni cap atribut ni cap mètode implementat.** Tot i que les interfícies si que permeten atributs constants i&#x20;
+{% endhint %}
+
+
 
 ***
 

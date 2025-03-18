@@ -10,8 +10,6 @@ En programació, aquest mateix concepte s'aplica per definir característiques g
 
 <figure><img src="../../../.gitbook/assets/image (24).png" alt="" width="563"><figcaption></figcaption></figure>
 
-### 💡 Introducció
-
 L'herència és un mecanisme essencial en la **programació orientada a objectes (POO)** que permet que **una classe (subclasse) reutilitzi i ampliï les propietats i comportaments d'una altra classe (superclasse)**. Fomenta la reutilització de codi i facilita la creació de jerarquies de classes organitzades.
 
 #### 📝 Per a què serveix l'herència?

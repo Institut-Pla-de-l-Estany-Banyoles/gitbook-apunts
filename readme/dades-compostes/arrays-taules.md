@@ -6,12 +6,12 @@ Els **arrays**, són estructures que emmagatzemen un conjunt d’elements del ma
 
 Per definir un array, primer hem d'indicar el tipus d'elements que contindrà, seguit de les dimensions que tindrà i per últim el nom que li donarem.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="310"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="310"><figcaption></figcaption></figure>
 
 Segons el nombre de `[]`, definim les dimensions que tindrà l'array. Java no té un límit de dimensions, però la màquina JVM les limita a 255.
 
-| <img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" data-size="original"> | <img src="../../.gitbook/assets/image (5) (1).png" alt="" data-size="original"> |
-| :---------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
+| <img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" data-size="original"> | <img src="../../.gitbook/assets/image (5) (1) (1).png" alt="" data-size="original"> |
+| :-------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
 
 Un **array unidimensional** (també anomenat **vector**) és una llista lineal d’elements del mateix tipus. Cada element està identificat per un índex numèric, començant per 0.
 

@@ -1,6 +1,6 @@
 # Escriptura
 
-A contiuació veurem diferents maneres d'escriure en un fitxer utilitzant Java. Farem ús de `BufferedWriter`, `PrintWriter` i utilitats de la classe `Files` de Java 7. Altres classes que existeixen però que no veurem en detall són: `FileOutputStream`, `DataOutputStream`, `RandomAccessFile` i `FileChannel`.
+A continuació veurem diferents maneres d'escriure en un fitxer utilitzant Java. Farem ús de `BufferedWriter`, `PrintWriter` i utilitats de la classe `Files` de Java 7. Altres classes que existeixen, però que no veurem en detall són: `FileOutputStream`, `DataOutputStream`, `RandomAccessFile` i `FileChannel`.
 
 ## Classe [BufferedWriter](https://docs.oracle.com/javase/7/docs/api/java/io/BufferedWriter.html)
 
@@ -18,10 +18,8 @@ try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))){
 ```
 
 {% hint style="danger" %}
-Atenció! El mètode _write()_ esborra el contingut previ del fitxer.
+Atenció! El mètode _write()_ esborra el contingut previ del fitxer. Per **afegir una línia a un fitxer**, hem d'utilitzar el mètode _append()_
 {% endhint %}
-
-Per **afegir una línia a un fitxer**, hem d'utilitzar el mètode _append()_
 
 ```java
 File file = new File("fitxers/tutorial.txt");

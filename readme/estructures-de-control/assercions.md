@@ -117,12 +117,12 @@ Selecciona la configuració d'execució en qüestió
 {% step %}
 Clica `Modify options` i selecciona `Add VM options`
 
-<img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt="" data-size="original">
 {% endstep %}
 
 {% step %}
 Afegeix`-ea` a `VM options`
 
-<img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original">
 {% endstep %}
 {% endstepper %}

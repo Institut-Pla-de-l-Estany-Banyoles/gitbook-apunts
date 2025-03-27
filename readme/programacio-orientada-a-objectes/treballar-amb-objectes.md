@@ -12,13 +12,13 @@ Per crear instàncies de la classe, utilitzem els seus **`constructors`.** Segon
 Alumne unAlumne = new Alumne();
 ```
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ```java
 Alumne unAlumne = new Alumne("Joan", 25, 7.5f);
 ```
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption><p>Imatges de Fernando Porrino</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="563"><figcaption><p>Imatges de Fernando Porrino</p></figcaption></figure>
 
 En el cas del constructor amb paràmetres anteriors, podem veure que a part de crear l'objecte i reservar l'espai a memòria, ens ha assignat els valors inicials de l'objecte amb "Joan" al camp `nom`, 25 a la seva `edat` i 7.5 a la seva `nota`.
 

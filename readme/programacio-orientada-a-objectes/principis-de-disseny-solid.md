@@ -1,18 +1,14 @@
----
-hidden: true
----
-
 # Principis de Disseny SOLID
 
 Els principis SOLID són un conjunt de cinc regles fonamentals per al disseny de programari orientat a objectes, introduïdes per **Robert C. Martin (Uncle Bob)**. Aquests principis ajuden a crear codi més net, modular i fàcil de mantenir.
 
 Cada lletra de **SOLID** representa un principi:
 
-1. **S** - Single Responsibility Principle (_Principi de Responsabilitat Única_)
-2. **O** - Open/Closed Principle (_Principi Obert/Tancat_)
-3. **L** - Liskov Substitution Principle (_Principi de Substitució de Liskov_)
-4. **I** - Interface Segregation Principle (_Principi de Segregació d’Interfícies_)
-5. **D** - Dependency Inversion Principle (_Principi d'Inversió de Dependències_)
+**S** - Single Responsibility Principle (_Principi de Responsabilitat Única_)\
+**O** - Open/Closed Principle (_Principi Obert/Tancat_)\
+**L** - Liskov Substitution Principle (_Principi de Substitució de Liskov_)\
+**I** - Interface Segregation Principle (_Principi de Segregació d’Interfícies_)\
+**D** - Dependency Inversion Principle (_Principi d'Inversió de Dependències_)
 
 ***
 

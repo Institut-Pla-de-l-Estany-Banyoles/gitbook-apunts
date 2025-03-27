@@ -13,14 +13,14 @@ Aquestes estructures ajuden a aconseguir una major modularitat, reutilització d
 
 Una **classe abstracta** és una classe que **no es pot instanciar** (no es poden crear objectes d'aquesta classe) i pot contenir mètodes sense implementació que han de ser definits per les subclasses.
 
-#### **🔹 Característiques de les classes abstractes**
+**Característiques de les classes abstractes**
 
-✔️ Pot contenir **atributs i mètodes concrets**.\
-✔️ Pot tenir **mètodes abstractes** que les subclasses han de sobreescriure.\
-✔️ No es pot instanciar directament.\
-✔️ S'utilitza quan hi ha un comportament comú entre múltiples classes relacionades.
+* Pot contenir **atributs i mètodes concrets**.
+* Pot tenir **mètodes abstractes** que les subclasses han de sobreescriure.
+* No es pot instanciar directament.
+* S'utilitza quan hi ha un comportament comú entre múltiples classes relacionades.
 
-#### **🔹 Exemple en Java**
+#### **Exemple en Java**
 
 ```java
 abstract class Animal {
@@ -65,14 +65,14 @@ En aquest cas, `Animal` és una classe abstracta que defineix un mètode `ferSor
 
 Una **interfície** és una col·lecció de mètodes **sense implementació** que una classe ha d'implementar. A diferència de les classes abstractes, una classe pot implementar **múltiples interfícies**.
 
-#### **🔹 Característiques de les interfícies**
+#### **Característiques de les interfícies**
 
-✔️ No pot tenir atributs d’instància (només constants `final`).\
-✔️ Tots els seus mètodes són **abstractes per defecte** (fins a Java 8, on es van introduir els `default methods`).\
-✔️ Una classe pot implementar **múltiples interfícies**.\
-✔️ Útil per definir **comportaments compartits** entre classes no relacionades per herència.
+* No pot tenir atributs d’instància (només constants `final`).
+* Tots els seus mètodes són **abstractes per defecte** (fins a Java 8, on es van introduir els `default methods`).
+* Una classe pot implementar **múltiples interfícies**.
+* Útil per definir **comportaments compartits** entre classes no relacionades per herència.
 
-#### **🔹 Exemple en Java**
+#### **Exemple en Java**
 
 ```java
 interface Volador {

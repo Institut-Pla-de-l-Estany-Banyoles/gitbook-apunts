@@ -63,7 +63,7 @@ En aquest cas, `Animal` és una classe abstracta que defineix un mètode `ferSor
 
 ### **Interfícies**
 
-Una **interfície** és una col·lecció de mètodes **sense implementació** que una classe ha d'implementar. A diferència de les classes abstractes, una classe pot implementar **múltiples interfícies**.
+Una **interfície** és una col·lecció de mètodes **sense implementació**. A diferència de les classes abstractes, una classe pot implementar **múltiples interfícies**.
 
 #### **Característiques de les interfícies**
 
@@ -75,9 +75,13 @@ Una **interfície** és una col·lecció de mètodes **sense implementació** qu
 #### **Exemple en Java**
 
 ```java
+// ---------------------------------------
+
 interface Volador {
     void volar();
 }
+
+// ---------------------------------------
 
 class Ocell implements Volador {
     public void volar() {
@@ -85,11 +89,15 @@ class Ocell implements Volador {
     }
 }
 
+// ---------------------------------------
+
 class Avio implements Volador {
     public void volar() {
         System.out.println("L'avió vola");
     }
 }
+
+// ---------------------------------------
 
 public class Main {
     public static void main(String[] args) {
@@ -105,7 +113,7 @@ public class Main {
 Aquí, `Ocell` i `Avio` implementen la interfície `Volador`, cosa que permet que siguin tractats de manera homogènia.
 
 {% hint style="info" %}
-Podem veure les **interfícies** com a **classes abstractes pures**, classes abstractes que **no poden tenir ni cap atribut ni cap mètode implementat.** Tot i que les interfícies si que permeten atributs constants i&#x20;
+Podem veure les **interfícies** com a **classes abstractes pures**, classes abstractes que **no poden tenir ni cap atribut ni cap mètode implementat.** Tot i que les interfícies si que permeten atributs constants i default methods.
 {% endhint %}
 
 ***

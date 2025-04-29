@@ -44,7 +44,7 @@ String str = "Text a escriure";
 
 try (PrintWriter printWriter = new PrintWriter(new FileWriter(file))){
     printWriter.print(str);
-    printWriter.printf("El nom de l'alumne és %s i la seva nota és %d, "Marc", 8)
+    printWriter.printf("El nom de l'alumne és %s i la seva nota és %d, "Marc", 8);
 } catch (IOException e) {
     e.printStackTrace();
 }

@@ -18,14 +18,18 @@ try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))){
 ```
 
 {% hint style="danger" %}
-Atenció! El mètode _write()_ esborra el contingut previ del fitxer. Per **afegir una línia a un fitxer**, hem d'utilitzar el mètode _append()_
+Atenció! Tal com està creat el FileWriter, s'esborrarà el contingut previ del fitxer. Per poder **afegir una línia a un fitxer**, hem de crear el FileWriter amb el parametre append a true:&#x20;
+
+```
+public FileWriter(fileName, boolean append);
+```
 {% endhint %}
 
 ```java
 File file = new File("fitxers/tutorial.txt");
 String str = "Text a escriure";
 
-try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))){
+try (BufferedWriter writer = new BufferedWriter(new FileWriter(file, true))){
     writer.append(str);
 } catch (IOException e) {
     e.printStackTrace();

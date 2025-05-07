@@ -1,9 +1,10 @@
 ---
 description: '#DamMp03Uf6'
 hidden: true
+icon: database
 ---
 
-# UF6 - POO: Introducció a la persistència en BD
+# Persistència en BD
 
 ### Resultats d'aprenentatge
 
@@ -15,7 +16,7 @@ hidden: true
 
 * [UF6 - POO: Introducció a la persistència en BD](./)
   * [Persistència](persistencia.md)
-  * [Fitxers en Java](fitxers-en-java.md)
+  * [Fitxers en Java](../uf3-fonaments-de-la-gestio-de-fitxers/fitxers-en-java.md)
   * [Java Database Connectivity (JDBC)](java-database-connectivity-jdbc.md)
   * [Patrons de disseny](patrons-de-disseny.md)
 
@@ -34,6 +35,6 @@ hidden: true
 * [How to choose a database for your application](https://www.infoworld.com/article/3452894/how-to-choose-the-right-database-for-your-application.html)
 * [MySQL J/Connector Reference](https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-reference.html)
 * [SQLite Datatypes](https://www.sqlite.org/datatype3.html)
-* [Isolation (Database systems)](https://en.wikipedia.org/wiki/Isolation\_\(database\_systems\))
+* [Isolation (Database systems)](https://en.wikipedia.org/wiki/Isolation_\(database_systems\))
 * [Commons DbUtils](https://commons.apache.org/proper/commons-dbutils/)
 * [Persism ORM](https://github.com/sproket/Persism)

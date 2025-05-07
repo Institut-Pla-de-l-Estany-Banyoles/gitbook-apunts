@@ -5,6 +5,7 @@
     * [Conceptes inicials](readme/introduccio-a-la-programacio/conceptes-inicials.md)
     * [Algorismes](readme/introduccio-a-la-programacio/algorismes.md)
     * [Llenguatges de programació](readme/introduccio-a-la-programacio/llenguatges-de-programacio.md)
+    * [Java](readme/introduccio-a-la-programacio/java.md)
     * [Estructura d’un programa en Java](readme/introduccio-a-la-programacio/estructura-dun-programa-en-java.md)
     * [Del codi font a l'execució](readme/introduccio-a-la-programacio/del-codi-font-a-lexecucio.md)
   * [Dades i operacions](readme/dades-i-operacions/README.md)

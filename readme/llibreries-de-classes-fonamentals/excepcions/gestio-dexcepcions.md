@@ -46,7 +46,7 @@ try {
 
 Permet treballar amb recursos, i tancar-los sense fer-ho explícitament al codi. Cal que el recurs implementi AutoCloseable.
 
-```
+```java
 try (AutoCloseableObject o = new AutoCloseableObject()) {
   // ...
 } catch (SomeException e) {

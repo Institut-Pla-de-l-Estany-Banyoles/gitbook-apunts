@@ -20,9 +20,13 @@ Les col·leccions es divideixen en tres grups principals:
 2. **Conjunts `Set`**: Emmagatzemen elements únics sense un ordre específic. Exemple: `HashSet`, `TreeSet`.
 3. **Mapes `Map`**: Emmagatzemen parells clau-valor, on cada clau és única. Exemple: `HashMap`, `TreeMap`.
 
+{% hint style="info" %}
+Podeu trobar més informació detallada sobres Mapes i Col·leccions a l'[apartat específic](../llibreries-de-classes-fonamentals/col-leccions-i-mapes/) que veurem més endavant del curs. &#x20;
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-En aquest document ens centrarem en l'estructura **`ArrayList`**, una implementació de la interfície `List`.
+En aquest apartat ens centrarem en l'estructura **`ArrayList`**, una implementació de la interfície `List`.
 
 ***
 

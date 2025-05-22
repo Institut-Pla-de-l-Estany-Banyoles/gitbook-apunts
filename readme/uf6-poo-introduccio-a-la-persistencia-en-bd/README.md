@@ -1,6 +1,5 @@
 ---
 description: '#DamMp03Uf6'
-hidden: true
 icon: database
 ---
 

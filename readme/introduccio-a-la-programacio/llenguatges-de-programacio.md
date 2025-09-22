@@ -1,10 +1,10 @@
 # Llenguatges de programació
 
-Els **llenguatges de programació** són eines que permeten als programadors donar instruccions a un ordinador per executar tasques específiques. Un llenguatge de programació és un conjunt de regles i sintaxi que tradueix els algorismes creats per humans a un format comprensible per la màquina.
+Els **llenguatges de programació**, tal com el seu nom indica, són llenguatge que permeten als programadors donar instruccions a un ordinador per executar tasques específiques. Un llenguatge de programació és un conjunt de regles i sintaxi que tradueix els algorismes creats per humans a un format comprensible per la màquina.
 
 Podem classificar els llenguatges segons el seu nivell d'abstracció o segons el procediment que segueixen per ser executats (compilats o interpretats).
 
-### **Nivell d'abstracció**
+### **1. - Nivell d'abstracció**
 
 * **Llenguatges de baix nivell**: Com el **llenguatge assemblador**, són propers al codi màquina i interactuen directament amb el maquinari. Són difícils d'entendre per humans, però molt eficients per a l'ordinador.
 
@@ -14,7 +14,7 @@ Podem classificar els llenguatges segons el seu nivell d'abstracció o segons el
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="203"><figcaption><p>Llenguatge d'alt nivell</p></figcaption></figure>
 
-### **Llenguatges compilats o interpretats**
+### **2. - Tipus d'execució**
 
 * **Compilats**: el codi font es tradueix completament a codi màquina mitjançant un programa anomenat **compilador** abans de ser executat. Un cop compilat, el programa es pot executar directament sense necessitat del codi font original.
 

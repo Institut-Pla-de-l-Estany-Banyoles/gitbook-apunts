@@ -105,14 +105,6 @@ sequenceDiagram
        └───────────────┘
 ```
 
-
-
-En aquest mòdul programarem fent servir el llenguatge Java, com ja hem vist a l'apartat anterior, aquest és un llenguatge híbrid.&#x20;
-
-```
-//TODO: WORA, JDK, JRE...
-```
-
 En Java, un programa està format per un o més fitxers que contenen classes. Cada classe pot tenir un punt d'entrada definit pel mètode `main()`. Aquest mètode és el primer que s'executa quan s'inicia el programa. L'estructura bàsica és:
 
 {% code fullWidth="false" %}

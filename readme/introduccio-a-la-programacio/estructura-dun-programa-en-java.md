@@ -85,7 +85,7 @@ sequenceDiagram
 
 ### Resum gràfic
 
-```
+```mermaid
        ┌───────────────┐
        │   Codi font   │   (.java)
        └───────┬───────┘

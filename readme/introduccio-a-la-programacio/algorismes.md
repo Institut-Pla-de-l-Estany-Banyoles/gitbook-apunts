@@ -23,6 +23,72 @@ Podem representar els algoritmes en forma de text mitjançant **pseudocodi** o d
 
 <figure><img src="../../.gitbook/assets/image (7) (1).png" alt="" width="304"><figcaption></figcaption></figure>
 
+A continuació podem veure diferents estructures de programació com les podem representar amb pseudocodi.
+
+<table data-full-width="true"><thead><tr><th>Tipus d’estructura</th><th>Forma general</th><th>Descripció / Ús principal</th><th>Exemple aplicat</th></tr></thead><tbody><tr><td><strong>Seqüencial</strong></td><td><pre><code>INICI
+  Instrucció 1
+  Instrucció 2
+FI
+</code></pre></td><td>Executa instruccions una rere l’altra, en ordre.</td><td><pre><code>INICI
+  Escriure "Introdueix el teu nom:"
+  Llegir nom
+  Escriure "Bon dia, ", nom
+FI
+</code></pre></td></tr><tr><td><strong>Condicional simple</strong></td><td><pre><code>SI condició LLAVORS
+  Instruccions
+FI SI
+</code></pre></td><td>Executa un bloc només si la condició és certa.</td><td><pre><code>SI consum > 8 LLAVORS
+  Escriure "Consum alt"
+FI SI
+</code></pre></td></tr><tr><td><strong>Condicional doble</strong></td><td><pre><code>SI condició LLAVORS
+  Instruccions1
+SINÓ
+  Instruccions2
+FI SI
+</code></pre></td><td>Permet dues opcions: si la condició és certa o falsa.</td><td><pre><code>SI litres > 0 LLAVORS
+  Escriure "Dades correctes"
+SINÓ
+  Escriure "Error"
+FI SI
+</code></pre></td></tr><tr><td><strong>Condicional múltiple</strong></td><td><pre><code>SEGONS variable FER
+  CAS 1: Instruccions
+  CAS 2: Instruccions
+  CAS ALTRA: Instruccions
+FI SEGONS
+</code></pre></td><td>Selecciona un conjunt d’instruccions segons el valor d’una variable.</td><td><pre><code>SEGONS opció FER
+  CAS 1: Escriure "Benzina"
+  CAS 2: Escriure "Dièsel"
+FI SEGONS
+</code></pre></td></tr><tr><td><strong>Bucle MENTRE (WHILE)</strong></td><td><pre><code>MENTRE condició FER
+  Instruccions
+FI MENTRE
+</code></pre></td><td>Repeteix mentre la condició sigui certa. La condició es comprova <em>abans</em> d’executar el bloc.</td><td><pre><code>MENTRE litres ≠ 0 FER
+  Llegir km
+  Calcula consum
+  Llegir litres
+FI MENTRE
+</code></pre></td></tr><tr><td><strong>Bucle REPETIR...FINS (DO-WHILE)</strong></td><td><pre><code>REPETIR
+  Instruccions
+FINS condició
+</code></pre></td><td>Garanteix almenys una execució abans de comprovar la condició.</td><td><pre><code>REPETIR
+  Llegir litres
+FINS litres = 0
+</code></pre></td></tr><tr><td><strong>Bucle PER (FOR)</strong></td><td><pre><code>PER i := 1 FINS N FER
+  Instruccions
+FI PER
+</code></pre></td><td>Repeteix un nombre fix de vegades.</td><td><pre><code>PER i := 1 FINS 5 FER
+  Escriure "Hola!"
+FI PER
+</code></pre></td></tr><tr><td><strong>Declaració de variables</strong></td><td><pre><code>Definir nom com Tipus
+</code></pre></td><td>Reserva espai i tipus per a cada dada.</td><td><pre><code>Definir litres, km com real
+</code></pre></td></tr><tr><td><strong>Assignació de valors</strong></td><td><pre><code>variable := expressió
+</code></pre></td><td>Dona un valor a una variable.</td><td><pre><code>consum := (litres / km) * 100
+</code></pre></td></tr><tr><td><strong>Entrada / Sortida</strong></td><td><pre><code>Llegir variable
+Escriure "Text", variable
+</code></pre></td><td>Interacció amb l’usuari.</td><td><pre><code>Llegir nom
+Escriure "Hola ", nom
+</code></pre></td></tr></tbody></table>
+
 ### **Diagrames de flux**
 
 Un **diagrama de flux** és una representació gràfica d'un procés o algorisme, utilitzant formes geomètriques com rectangles, diamants i fletxes per mostrar els passos i la seqüència que segueix el procés.

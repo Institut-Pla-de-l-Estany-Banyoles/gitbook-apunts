@@ -92,7 +92,11 @@ dades[1][3] = 10
 {% endtabs %}
 
 {% hint style="warning" %}
-És important tenir en compte que l'índex del primer element d'un array és el 0
+És important tenir en compte que l'**índex del primer element d'un array és el 0** i l'**u´ltim és la mida - 1**.
+{% endhint %}
+
+{% hint style="danger" %}
+Si intentem accedir a una posició de l'array no vàlida, rebrem un **ArrayIndexOutOfBoundsException**
 {% endhint %}
 
 #### Accés seqüencial

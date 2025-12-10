@@ -23,7 +23,7 @@ En Java, una tupla es representa mitjançant una **classe** amb diversos atribut
 La manera més senzilla d’implementar una tupla és crear una classe amb **atributs públics** i accedir-hi directament.\
 Aquesta aproximació és adequada per introduir el concepte abans de treballar formalment la POO.
 
-#### Exemple: representar un alumne (nom, edat)
+#### Definir una tupla
 
 ```java
 public class Alumne {
@@ -32,9 +32,9 @@ public class Alumne {
 }
 ```
 
-Aquest codi ens permetria **definir** una tupla `Alumne` amb dos elements de diferents tipus. Un nom de tipus `String` i una edat de tipus `int`.
+Aquest codi ens permetria **definir** una tupla `Alumne` amb dos elements de diferents tipus. Un nom de tipus `String` i una edat de tipus `int`. Ens hem d'imaginar que defineix la plantilla o l'esbós per poder crear variables de tipus Alumne.
 
-### Crear i utilitzar una tupla amb atributs públics
+<figure><img src="../../.gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
 
 #### Creació d’una instància
 
@@ -47,6 +47,14 @@ a.nom = "Marc";
 a.edat = 20;
 ```
 
+<figure><img src="../../.gitbook/assets/unknown (1).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+Tal com hem vist amb els arrays o taules, la paraula `new` crea una estructura per guardar la informació a la part de [memòria dinàmia o heap](#user-content-fn-1)[^1] i ens retorna la seva referència (la direcció on la trobarem)
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+
 #### Accés directe als valors
 
 ```java
@@ -58,7 +66,7 @@ Aquesta aproximació és **simple** i **útil per introduir el concepte de tupla
 
 ***
 
-## Tupla amb encapsulació (la manera correcta en POO)
+## Tupla amb encapsulació
 
 Això és només una **introducció**. A l’apartat de POO veurem aquesta pràctica amb més profunditat.
 
@@ -119,3 +127,5 @@ En projectes més avançats és habitual utilitzar estructures ja definides:
   * _Vavr_ (`Tuple2`, `Tuple3`, ...)
 
 > En aquest curs ens centrarem en **classes personalitzades**, que és la base del model orientat a objecte
+
+[^1]: És la regió de memòria dinàmica on s'emmagatzemen els objectes i les dades que necessiten una durada més llarga, més enllà de l'àmbit d'un mètode. Aquesta és gestionada per la JVM

@@ -4,25 +4,118 @@ Una **tupla** és una estructura de dades que permet agrupar múltiples elements
 
 Podem imaginar-nos una tupla com un tipus propi. Les tuples ens permeten agrupar diferents tipus de dades sota un nou tipus de dada.
 
-#### Java i les Tuples
+### Què és una tupla?
 
-Java no té suport nadiu per a les tuples com altres llenguatges (com Python), però es poden implementar de diverses maneres, com ara:
+Una **tupla** és una estructura que conté diversos elements, possiblement de tipus diferents, que pertanyen conceptualment a una mateixa unitat d’informació.
 
-1. **Classes personalitzades**.
-2. **Estructures genèriques**.
-3. Ús de biblioteques externes, com ara **Apache Commons Lang** o **Vavr**.
+Exemples conceptuals:
+
+* Una persona → _(nom, edat)_
+* Un punt 2D → _(x, y)_
+* El resultat d’un càlcul → _(valor, missatge)_
+
+En Java, una tupla es representa mitjançant una **classe** amb diversos atributs.
 
 ***
 
-### Implementació amb Classes
+## Tuples amb Classes (definició bàsica atributs públics)
 
-Podem crear una classe personalitzada per representar una tupla amb dos elements. Per exemple, podem veure un `Alumne`. Aquest vindrà representat pel seu `nom` i la seva `edat`.
+La manera més senzilla d’implementar una tupla és crear una classe amb **atributs públics** i accedir-hi directament.\
+Aquesta aproximació és adequada per introduir el concepte abans de treballar formalment la POO.
 
-#### Exemple:
+#### Exemple: representar un alumne (nom, edat)
 
 ```java
-class Alumne {
+public class Alumne {
     public String nom;
     public int edat;
 }
 ```
+
+Aquest codi ens permetria **definir** una tupla `Alumne` amb dos elements de diferents tipus. Un nom de tipus `String` i una edat de tipus `int`.
+
+### Crear i utilitzar una tupla amb atributs públics
+
+#### Creació d’una instància
+
+```java
+//Creació de l'Alumne a
+Alumne a = new Alumne();
+
+//Assignació de valors als elements nom i edat de l'Alumne a
+a.nom = "Marc";
+a.edat = 20;
+```
+
+#### Accés directe als valors
+
+```java
+System.out.println(a.nom);   // "Marc"
+System.out.println(a.edat);  // 20
+```
+
+Aquesta aproximació és **simple** i **útil per introduir el concepte de tupla**, però té inconvenients que veurem més endavant.
+
+***
+
+## Tupla amb encapsulació (la manera correcta en POO)
+
+Això és només una **introducció**. A l’apartat de POO veurem aquesta pràctica amb més profunditat.
+
+```java
+public class Alumne {
+    private String nom;
+    private int edat;
+
+    public Alumne(String nom, int edat) {
+        this.nom = nom;
+        this.edat = edat;
+    }
+
+    public String getNom() {
+        return nom;
+    }
+
+    public int getEdat() {
+        return edat;
+    }
+}
+```
+
+Accés:
+
+```java
+Alumne a = new Alumne("Marc", 20);
+
+System.out.println(a.getNom());
+System.out.println(a.getEdat());
+```
+
+> ✔️ **Aquesta és la versió recomanada**, però només s’introdueix aquí per comparació.\
+> Els detalls es treballaran més endavant quan expliquem _encapsulació_, _getters_, _setters_, i bones pràctiques de POO.
+
+## Per què no es recomana fer servir atributs públics?
+
+Tot i que és la manera més ràpida d'introduir les tuples, **no respecta l'encapsulació**, un dels principis fonamentals de la Programació Orientada a Objectes.
+
+Amb atributs públics:
+
+* No podem controlar els valors que s’hi assignen
+* No podem validar dades
+* No podem impedir modificacions incorrectes
+* No es pot garantir la coherència interna de l'objecte
+
+Per això, a POO acostumem a fer que els atributs siguin **privats** i exposem **mètodes d’accés**.
+
+***
+
+## Alternatives existents
+
+En projectes més avançats és habitual utilitzar estructures ja definides:
+
+* **Classes genèriques pròpies** com `Pair`, `Triple`
+* **Llibreries externes** com:
+  * _Apache Commons Lang_ (`Pair`, `Triple`)
+  * _Vavr_ (`Tuple2`, `Tuple3`, ...)
+
+> En aquest curs ens centrarem en **classes personalitzades**, que és la base del model orientat a objecte

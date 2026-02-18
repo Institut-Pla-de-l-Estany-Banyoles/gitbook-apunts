@@ -2,7 +2,9 @@
 
 Per poder crear **programes més rics, complets i escalables** que ens permetin representar **situacions més complexes**, és imprescindible poder **definir relacions entre les classes**. És per això, que existeixen diferents tipus de **relacions** que és important conèixer. Això permet **construir objectes més complexos combinant altres objectes**.
 
-En **Programació Orientada a Objectes (POO)**, els objectes poden interactuar entre si establint relacions. Aquestes relacions es classifiquen en **associació, agregació i composició**, que indiquen el nivell de dependència entre els objectes.
+En **Programació Orientada a Objectes (POO)**, les classes poden establir relacions entre si per modelar com interactuen els objectes dins d’un sistema.
+
+Aquestes relacions poden ser de tipus **associació, agregació o composició**, que indiquen diferents nivells de dependència entre objectes (_relacions “té un”_), o bé de tipus **herència**, que estableix una relació jeràrquica entre classes (_relació “és un”_).
 
 ***
 

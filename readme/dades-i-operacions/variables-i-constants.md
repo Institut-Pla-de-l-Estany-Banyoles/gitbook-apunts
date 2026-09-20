@@ -1,3 +1,26 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
+---
+
 # Variables i constants
 
 Les dades són una de les parts principals de qualsevol aplicació informàtica, qualsevol element que s'hagi de processar, analitzar, calcular, consultar, comparar... Serà una dada que està guardada en el nostre sistema informàtic, sigui de manera temporal o persistent.

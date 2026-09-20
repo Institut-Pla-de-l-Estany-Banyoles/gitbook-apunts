@@ -8,7 +8,7 @@
     * [Java](readme/introduccio-a-la-programacio/java.md)
     * [Estructura d’un programa en Java](readme/introduccio-a-la-programacio/estructura-dun-programa-en-java.md)
     * [Del codi font a l'execució](readme/introduccio-a-la-programacio/del-codi-font-a-lexecucio.md)
-  * [Page 1](readme/page-1.md)
+  * [Resolució de problemes i pensament computacional](readme/resolucio-de-problemes-i-pensament-computacional.md)
   * [Dades i operacions](readme/dades-i-operacions/README.md)
     * [Variables i constants](readme/dades-i-operacions/variables-i-constants.md)
     * [Tipus de dades](readme/dades-i-operacions/tipus-de-dades.md)
